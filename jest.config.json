@@ -1,0 +1,23 @@
+{
+    "collectCoverage": true,
+    "coverageDirectory": "_coverage/",
+    "coverageReporters": ["json", "lcov", "text", "html"],
+    "coveragePathIgnorePatterns": ["./osaCalls.ts"],
+    "transformIgnorePatterns": ["/node_modules/(?!hs.*?/)"],
+    "rootDir": "./",
+    "roots":["./src"],
+    "testMatch": ["**/*.jest.ts","**/*.test.ts"],
+    "moduleFileExtensions": [
+        "ts",
+        "tsx",
+        "js",
+        "jsx",
+        "json"
+    ],
+    "transform": {
+        "\\.(ts|js)$": "ts-jest"
+    },
+    "testURL": "http://localhost/",
+    "verbose": true,
+    "bail": false
+}

@@ -1,0 +1,11 @@
+_coverage
+_example
+bin
+data
+node_modules*
+lcov-report
+lcov.info
+coverage-final.json
+.DS_Store
+.tscache
+tscommand*
