@@ -1,8 +1,10 @@
 {
     "name": "hshealth",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "main": "./bin/cjs/converter.js",
-    "files": ["./"],
+    "files": [
+        "./"
+    ],
     "scripts": {
         "grunt": "grunt --gruntfile Gruntfile.cjs",
         "prepublishOnly": "npm run grunt",
