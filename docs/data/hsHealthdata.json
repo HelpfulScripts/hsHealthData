@@ -73,7 +73,7 @@
 							"sources": [
 								{
 									"fileName": "HealthKit.ts",
-									"line": 223,
+									"line": 220,
 									"character": 15
 								}
 							],
@@ -94,7 +94,7 @@
 							"sources": [
 								{
 									"fileName": "HealthKit.ts",
-									"line": 223,
+									"line": 220,
 									"character": 8
 								}
 							],
@@ -150,7 +150,7 @@
 							"sources": [
 								{
 									"fileName": "HealthKit.ts",
-									"line": 228,
+									"line": 225,
 									"character": 7
 								}
 							],
@@ -240,7 +240,7 @@
 																	"sources": [
 																		{
 																			"fileName": "HealthKit.ts",
-																			"line": 109,
+																			"line": 108,
 																			"character": 36
 																		}
 																	]
@@ -280,7 +280,7 @@
 							"sources": [
 								{
 									"fileName": "HealthKit.ts",
-									"line": 109,
+									"line": 108,
 									"character": 15
 								}
 							],
@@ -387,7 +387,7 @@
 							"sources": [
 								{
 									"fileName": "HealthKit.ts",
-									"line": 87,
+									"line": 86,
 									"character": 15
 								}
 							],
@@ -444,7 +444,7 @@
 							"sources": [
 								{
 									"fileName": "HealthKit.ts",
-									"line": 80,
+									"line": 79,
 									"character": 9
 								}
 							],
@@ -484,7 +484,7 @@
 					"sources": [
 						{
 							"fileName": "HealthKit.ts",
-							"line": 222,
+							"line": 219,
 							"character": 25
 						}
 					],
@@ -505,7 +505,7 @@
 						"isExported": true
 					},
 					"comment": {
-						"shortText": "<!DOCTYPE HealthData [\n<!-- HealthKit Export Version: 11 -->\n<!ELEMENT HealthData (ExportDate,Me,(Record|Correlation|Workout|ActivitySummary|ClinicalRecord)*)>\n<!ATTLIST HealthData\nlocale CDATA #REQUIRED\n>"
+						"shortText": "<!ELEMENT HealthData (ExportDate,Me,(Record|Correlation|Workout|ActivitySummary|ClinicalRecord)*)>\n<!ATTLIST HealthData\nlocale CDATA #REQUIRED\n>"
 					},
 					"children": [
 						{
@@ -555,7 +555,7 @@
 							"sources": [
 								{
 									"fileName": "HealthKit.ts",
-									"line": 142,
+									"line": 139,
 									"character": 70
 								}
 							],
@@ -576,7 +576,7 @@
 							"sources": [
 								{
 									"fileName": "HealthKit.ts",
-									"line": 138,
+									"line": 135,
 									"character": 14
 								}
 							],
@@ -596,7 +596,7 @@
 							"sources": [
 								{
 									"fileName": "HealthKit.ts",
-									"line": 137,
+									"line": 134,
 									"character": 10
 								}
 							],
@@ -616,7 +616,7 @@
 							"sources": [
 								{
 									"fileName": "HealthKit.ts",
-									"line": 139,
+									"line": 136,
 									"character": 6
 								}
 							],
@@ -637,7 +637,7 @@
 							"sources": [
 								{
 									"fileName": "HealthKit.ts",
-									"line": 140,
+									"line": 137,
 									"character": 11
 								}
 							],
@@ -657,7 +657,7 @@
 							"sources": [
 								{
 									"fileName": "HealthKit.ts",
-									"line": 141,
+									"line": 138,
 									"character": 12
 								}
 							],
@@ -713,7 +713,7 @@
 							"sources": [
 								{
 									"fileName": "HealthKit.ts",
-									"line": 180,
+									"line": 177,
 									"character": 7
 								}
 							],
@@ -791,7 +791,7 @@
 							"sources": [
 								{
 									"fileName": "HealthKit.ts",
-									"line": 149,
+									"line": 146,
 									"character": 22
 								}
 							]
@@ -876,7 +876,7 @@
 																	"sources": [
 																		{
 																			"fileName": "HealthKit.ts",
-																			"line": 109,
+																			"line": 108,
 																			"character": 36
 																		}
 																	]
@@ -916,7 +916,7 @@
 							"sources": [
 								{
 									"fileName": "HealthKit.ts",
-									"line": 109,
+									"line": 108,
 									"character": 15
 								}
 							],
@@ -1006,7 +1006,7 @@
 							"sources": [
 								{
 									"fileName": "HealthKit.ts",
-									"line": 168,
+									"line": 165,
 									"character": 21
 								}
 							]
@@ -1092,7 +1092,7 @@
 							"sources": [
 								{
 									"fileName": "HealthKit.ts",
-									"line": 158,
+									"line": 155,
 									"character": 18
 								}
 							]
@@ -1194,7 +1194,7 @@
 							"sources": [
 								{
 									"fileName": "HealthKit.ts",
-									"line": 87,
+									"line": 86,
 									"character": 15
 								}
 							],
@@ -1251,7 +1251,7 @@
 							"sources": [
 								{
 									"fileName": "HealthKit.ts",
-									"line": 80,
+									"line": 79,
 									"character": 9
 								}
 							],
@@ -1281,7 +1281,7 @@
 									"sources": [
 										{
 											"fileName": "HealthKit.ts",
-											"line": 142,
+											"line": 139,
 											"character": 65
 										}
 									],
@@ -1309,7 +1309,7 @@
 									"sources": [
 										{
 											"fileName": "HealthKit.ts",
-											"line": 142,
+											"line": 139,
 											"character": 35
 										}
 									],
@@ -1333,7 +1333,7 @@
 									"sources": [
 										{
 											"fileName": "HealthKit.ts",
-											"line": 142,
+											"line": 139,
 											"character": 56
 										}
 									],
@@ -1361,7 +1361,7 @@
 							"sources": [
 								{
 									"fileName": "HealthKit.ts",
-									"line": 142,
+									"line": 139,
 									"character": 21
 								}
 							],
@@ -1414,7 +1414,7 @@
 					"sources": [
 						{
 							"fileName": "HealthKit.ts",
-							"line": 136,
+							"line": 133,
 							"character": 25
 						}
 					],
@@ -1489,7 +1489,7 @@
 							"sources": [
 								{
 									"fileName": "HealthKit.ts",
-									"line": 331,
+									"line": 328,
 									"character": 57
 								}
 							],
@@ -1511,7 +1511,7 @@
 							"sources": [
 								{
 									"fileName": "HealthKit.ts",
-									"line": 332,
+									"line": 329,
 									"character": 46
 								}
 							],
@@ -1562,7 +1562,7 @@
 							"sources": [
 								{
 									"fileName": "HealthKit.ts",
-									"line": 335,
+									"line": 332,
 									"character": 7
 								}
 							],
@@ -1640,7 +1640,7 @@
 																	"sources": [
 																		{
 																			"fileName": "HealthKit.ts",
-																			"line": 109,
+																			"line": 108,
 																			"character": 36
 																		}
 																	]
@@ -1678,7 +1678,7 @@
 							"sources": [
 								{
 									"fileName": "HealthKit.ts",
-									"line": 109,
+									"line": 108,
 									"character": 15
 								}
 							],
@@ -1775,7 +1775,7 @@
 							"sources": [
 								{
 									"fileName": "HealthKit.ts",
-									"line": 87,
+									"line": 86,
 									"character": 15
 								}
 							],
@@ -1826,7 +1826,7 @@
 							"sources": [
 								{
 									"fileName": "HealthKit.ts",
-									"line": 80,
+									"line": 79,
 									"character": 9
 								}
 							],
@@ -1866,7 +1866,7 @@
 					"sources": [
 						{
 							"fileName": "HealthKit.ts",
-							"line": 331,
+							"line": 328,
 							"character": 40
 						}
 					],
@@ -1937,7 +1937,7 @@
 							"sources": [
 								{
 									"fileName": "HealthKit.ts",
-									"line": 246,
+									"line": 243,
 									"character": 21
 								}
 							],
@@ -1958,7 +1958,7 @@
 							"sources": [
 								{
 									"fileName": "HealthKit.ts",
-									"line": 244,
+									"line": 241,
 									"character": 17
 								}
 							],
@@ -1978,7 +1978,7 @@
 							"sources": [
 								{
 									"fileName": "HealthKit.ts",
-									"line": 245,
+									"line": 242,
 									"character": 13
 								}
 							],
@@ -1998,7 +1998,7 @@
 							"sources": [
 								{
 									"fileName": "HealthKit.ts",
-									"line": 243,
+									"line": 240,
 									"character": 15
 								}
 							],
@@ -2018,7 +2018,7 @@
 							"sources": [
 								{
 									"fileName": "HealthKit.ts",
-									"line": 246,
+									"line": 243,
 									"character": 12
 								}
 							],
@@ -2074,7 +2074,7 @@
 							"sources": [
 								{
 									"fileName": "HealthKit.ts",
-									"line": 256,
+									"line": 253,
 									"character": 7
 								}
 							],
@@ -2164,7 +2164,7 @@
 																	"sources": [
 																		{
 																			"fileName": "HealthKit.ts",
-																			"line": 109,
+																			"line": 108,
 																			"character": 36
 																		}
 																	]
@@ -2204,7 +2204,7 @@
 							"sources": [
 								{
 									"fileName": "HealthKit.ts",
-									"line": 109,
+									"line": 108,
 									"character": 15
 								}
 							],
@@ -2311,7 +2311,7 @@
 							"sources": [
 								{
 									"fileName": "HealthKit.ts",
-									"line": 87,
+									"line": 86,
 									"character": 15
 								}
 							],
@@ -2368,7 +2368,7 @@
 							"sources": [
 								{
 									"fileName": "HealthKit.ts",
-									"line": 80,
+									"line": 79,
 									"character": 9
 								}
 							],
@@ -2411,7 +2411,7 @@
 					"sources": [
 						{
 							"fileName": "HealthKit.ts",
-							"line": 242,
+							"line": 239,
 							"character": 17
 						}
 					],
@@ -2460,7 +2460,7 @@
 							"sources": [
 								{
 									"fileName": "HealthKit.ts",
-									"line": 77,
+									"line": 76,
 									"character": 30
 								}
 							]
@@ -2508,7 +2508,7 @@
 							"sources": [
 								{
 									"fileName": "HealthKit.ts",
-									"line": 79,
+									"line": 78,
 									"character": 16
 								}
 							]
@@ -2593,7 +2593,7 @@
 																	"sources": [
 																		{
 																			"fileName": "HealthKit.ts",
-																			"line": 109,
+																			"line": 108,
 																			"character": 36
 																		}
 																	]
@@ -2628,7 +2628,7 @@
 							"sources": [
 								{
 									"fileName": "HealthKit.ts",
-									"line": 109,
+									"line": 108,
 									"character": 15
 								}
 							]
@@ -2725,7 +2725,7 @@
 							"sources": [
 								{
 									"fileName": "HealthKit.ts",
-									"line": 87,
+									"line": 86,
 									"character": 15
 								}
 							]
@@ -2772,7 +2772,7 @@
 							"sources": [
 								{
 									"fileName": "HealthKit.ts",
-									"line": 80,
+									"line": 79,
 									"character": 9
 								}
 							]
@@ -2800,7 +2800,7 @@
 					"sources": [
 						{
 							"fileName": "HealthKit.ts",
-							"line": 77,
+							"line": 76,
 							"character": 28
 						}
 					],
@@ -2910,7 +2910,7 @@
 							"sources": [
 								{
 									"fileName": "HealthKit.ts",
-									"line": 279,
+									"line": 276,
 									"character": 22
 								}
 							],
@@ -2932,7 +2932,7 @@
 							"sources": [
 								{
 									"fileName": "HealthKit.ts",
-									"line": 280,
+									"line": 277,
 									"character": 47
 								}
 							],
@@ -2951,7 +2951,7 @@
 							"sources": [
 								{
 									"fileName": "HealthKit.ts",
-									"line": 279,
+									"line": 276,
 									"character": 13
 								}
 							],
@@ -2969,7 +2969,7 @@
 							"sources": [
 								{
 									"fileName": "HealthKit.ts",
-									"line": 278,
+									"line": 275,
 									"character": 8
 								}
 							],
@@ -2989,7 +2989,7 @@
 							"sources": [
 								{
 									"fileName": "HealthKit.ts",
-									"line": 277,
+									"line": 274,
 									"character": 16
 								}
 							],
@@ -3045,7 +3045,7 @@
 							"sources": [
 								{
 									"fileName": "HealthKit.ts",
-									"line": 305,
+									"line": 302,
 									"character": 7
 								}
 							],
@@ -3123,7 +3123,7 @@
 																	"sources": [
 																		{
 																			"fileName": "HealthKit.ts",
-																			"line": 109,
+																			"line": 108,
 																			"character": 36
 																		}
 																	]
@@ -3161,7 +3161,7 @@
 							"sources": [
 								{
 									"fileName": "HealthKit.ts",
-									"line": 109,
+									"line": 108,
 									"character": 15
 								}
 							],
@@ -3258,7 +3258,7 @@
 							"sources": [
 								{
 									"fileName": "HealthKit.ts",
-									"line": 87,
+									"line": 86,
 									"character": 15
 								}
 							],
@@ -3309,7 +3309,7 @@
 							"sources": [
 								{
 									"fileName": "HealthKit.ts",
-									"line": 80,
+									"line": 79,
 									"character": 9
 								}
 							],
@@ -3352,7 +3352,7 @@
 					"sources": [
 						{
 							"fileName": "HealthKit.ts",
-							"line": 276,
+							"line": 273,
 							"character": 14
 						}
 					],
@@ -3405,7 +3405,7 @@
 							"sources": [
 								{
 									"fileName": "HealthKit.ts",
-									"line": 115,
+									"line": 114,
 									"character": 28
 								}
 							],
@@ -3426,7 +3426,7 @@
 							"sources": [
 								{
 									"fileName": "HealthKit.ts",
-									"line": 115,
+									"line": 114,
 									"character": 14
 								}
 							],
@@ -3483,7 +3483,7 @@
 							"sources": [
 								{
 									"fileName": "HealthKit.ts",
-									"line": 120,
+									"line": 119,
 									"character": 7
 								}
 							],
@@ -3573,7 +3573,7 @@
 																	"sources": [
 																		{
 																			"fileName": "HealthKit.ts",
-																			"line": 109,
+																			"line": 108,
 																			"character": 36
 																		}
 																	]
@@ -3613,7 +3613,7 @@
 							"sources": [
 								{
 									"fileName": "HealthKit.ts",
-									"line": 109,
+									"line": 108,
 									"character": 15
 								}
 							],
@@ -3720,7 +3720,7 @@
 							"sources": [
 								{
 									"fileName": "HealthKit.ts",
-									"line": 87,
+									"line": 86,
 									"character": 15
 								}
 							],
@@ -3777,7 +3777,7 @@
 							"sources": [
 								{
 									"fileName": "HealthKit.ts",
-									"line": 80,
+									"line": 79,
 									"character": 9
 								}
 							],
@@ -3817,7 +3817,7 @@
 					"sources": [
 						{
 							"fileName": "HealthKit.ts",
-							"line": 114,
+							"line": 113,
 							"character": 19
 						}
 					],
@@ -3902,7 +3902,7 @@
 							"sources": [
 								{
 									"fileName": "HealthKit.ts",
-									"line": 380,
+									"line": 377,
 									"character": 18
 								}
 							],
@@ -3923,7 +3923,7 @@
 							"sources": [
 								{
 									"fileName": "HealthKit.ts",
-									"line": 380,
+									"line": 377,
 									"character": 8
 								}
 							],
@@ -3943,7 +3943,7 @@
 							"sources": [
 								{
 									"fileName": "HealthKit.ts",
-									"line": 378,
+									"line": 375,
 									"character": 10
 								}
 							],
@@ -3967,7 +3967,7 @@
 							"sources": [
 								{
 									"fileName": "HealthKit.ts",
-									"line": 377,
+									"line": 374,
 									"character": 10
 								}
 							],
@@ -3989,7 +3989,7 @@
 							"sources": [
 								{
 									"fileName": "HealthKit.ts",
-									"line": 381,
+									"line": 378,
 									"character": 50
 								}
 							],
@@ -4010,7 +4010,7 @@
 							"sources": [
 								{
 									"fileName": "HealthKit.ts",
-									"line": 379,
+									"line": 376,
 									"character": 10
 								}
 							],
@@ -4034,7 +4034,7 @@
 							"sources": [
 								{
 									"fileName": "HealthKit.ts",
-									"line": 376,
+									"line": 373,
 									"character": 8
 								}
 							],
@@ -4056,7 +4056,7 @@
 							"sources": [
 								{
 									"fileName": "HealthKit.ts",
-									"line": 375,
+									"line": 372,
 									"character": 16
 								}
 							],
@@ -4120,7 +4120,7 @@
 							"sources": [
 								{
 									"fileName": "HealthKit.ts",
-									"line": 418,
+									"line": 415,
 									"character": 7
 								}
 							],
@@ -4210,7 +4210,7 @@
 																	"sources": [
 																		{
 																			"fileName": "HealthKit.ts",
-																			"line": 109,
+																			"line": 108,
 																			"character": 36
 																		}
 																	]
@@ -4250,7 +4250,7 @@
 							"sources": [
 								{
 									"fileName": "HealthKit.ts",
-									"line": 109,
+									"line": 108,
 									"character": 15
 								}
 							],
@@ -4357,7 +4357,7 @@
 							"sources": [
 								{
 									"fileName": "HealthKit.ts",
-									"line": 87,
+									"line": 86,
 									"character": 15
 								}
 							],
@@ -4435,7 +4435,7 @@
 							"sources": [
 								{
 									"fileName": "HealthKit.ts",
-									"line": 413,
+									"line": 410,
 									"character": 19
 								}
 							]
@@ -4508,7 +4508,7 @@
 							"sources": [
 								{
 									"fileName": "HealthKit.ts",
-									"line": 408,
+									"line": 405,
 									"character": 25
 								}
 							]
@@ -4560,7 +4560,7 @@
 							"sources": [
 								{
 									"fileName": "HealthKit.ts",
-									"line": 80,
+									"line": 79,
 									"character": 9
 								}
 							],
@@ -4608,7 +4608,7 @@
 					"sources": [
 						{
 							"fileName": "HealthKit.ts",
-							"line": 374,
+							"line": 371,
 							"character": 22
 						}
 					],
@@ -4693,7 +4693,7 @@
 							"sources": [
 								{
 									"fileName": "HealthKit.ts",
-									"line": 466,
+									"line": 463,
 									"character": 15
 								}
 							],
@@ -4714,7 +4714,7 @@
 							"sources": [
 								{
 									"fileName": "HealthKit.ts",
-									"line": 466,
+									"line": 463,
 									"character": 9
 								}
 							],
@@ -4744,7 +4744,7 @@
 							"sources": [
 								{
 									"fileName": "HealthKit.ts",
-									"line": 467,
+									"line": 464,
 									"character": 47
 								}
 							],
@@ -4801,7 +4801,7 @@
 							"sources": [
 								{
 									"fileName": "HealthKit.ts",
-									"line": 480,
+									"line": 477,
 									"character": 7
 								}
 							],
@@ -4891,7 +4891,7 @@
 																	"sources": [
 																		{
 																			"fileName": "HealthKit.ts",
-																			"line": 109,
+																			"line": 108,
 																			"character": 36
 																		}
 																	]
@@ -4931,7 +4931,7 @@
 							"sources": [
 								{
 									"fileName": "HealthKit.ts",
-									"line": 109,
+									"line": 108,
 									"character": 15
 								}
 							],
@@ -5038,7 +5038,7 @@
 							"sources": [
 								{
 									"fileName": "HealthKit.ts",
-									"line": 87,
+									"line": 86,
 									"character": 15
 								}
 							],
@@ -5095,7 +5095,7 @@
 							"sources": [
 								{
 									"fileName": "HealthKit.ts",
-									"line": 80,
+									"line": 79,
 									"character": 9
 								}
 							],
@@ -5136,7 +5136,7 @@
 					"sources": [
 						{
 							"fileName": "HealthKit.ts",
-							"line": 465,
+							"line": 462,
 							"character": 27
 						}
 					],
@@ -5203,7 +5203,7 @@
 					"sources": [
 						{
 							"fileName": "HealthKit.ts",
-							"line": 53,
+							"line": 52,
 							"character": 21
 						}
 					]
@@ -5228,7 +5228,7 @@
 							"sources": [
 								{
 									"fileName": "HealthKit.ts",
-									"line": 72,
+									"line": 71,
 									"character": 8
 								}
 							],
@@ -5249,7 +5249,7 @@
 							"sources": [
 								{
 									"fileName": "HealthKit.ts",
-									"line": 73,
+									"line": 72,
 									"character": 7
 								}
 							],
@@ -5270,7 +5270,7 @@
 							"sources": [
 								{
 									"fileName": "HealthKit.ts",
-									"line": 70,
+									"line": 69,
 									"character": 10
 								}
 							],
@@ -5293,7 +5293,7 @@
 							"sources": [
 								{
 									"fileName": "HealthKit.ts",
-									"line": 71,
+									"line": 70,
 									"character": 10
 								}
 							],
@@ -5324,7 +5324,7 @@
 					"sources": [
 						{
 							"fileName": "HealthKit.ts",
-							"line": 69,
+							"line": 68,
 							"character": 28
 						}
 					]
@@ -5338,7 +5338,7 @@
 					"sources": [
 						{
 							"fileName": "HealthKit.ts",
-							"line": 50,
+							"line": 49,
 							"character": 14
 						}
 					],
@@ -5379,7 +5379,7 @@
 							"sources": [
 								{
 									"fileName": "HealthKit.ts",
-									"line": 50,
+									"line": 49,
 									"character": 16
 								}
 							]
@@ -5395,7 +5395,7 @@
 					"sources": [
 						{
 							"fileName": "HealthKit.ts",
-							"line": 51,
+							"line": 50,
 							"character": 19
 						}
 					],
@@ -5445,7 +5445,7 @@
 							"sources": [
 								{
 									"fileName": "HealthKit.ts",
-									"line": 51,
+									"line": 50,
 									"character": 21
 								}
 							]
@@ -5463,7 +5463,7 @@
 					"sources": [
 						{
 							"fileName": "HealthKit.ts",
-							"line": 47,
+							"line": 46,
 							"character": 10
 						}
 					],
@@ -5519,7 +5519,7 @@
 					"sources": [
 						{
 							"fileName": "HealthKit.ts",
-							"line": 510,
+							"line": 507,
 							"character": 18
 						}
 					]
@@ -5572,7 +5572,7 @@
 					"sources": [
 						{
 							"fileName": "HealthKit.ts",
-							"line": 56,
+							"line": 55,
 							"character": 12
 						}
 					]
@@ -5625,7 +5625,7 @@
 					"sources": [
 						{
 							"fileName": "HealthKit.ts",
-							"line": 64,
+							"line": 63,
 							"character": 18
 						}
 					]
@@ -5678,7 +5678,7 @@
 					"sources": [
 						{
 							"fileName": "HealthKit.ts",
-							"line": 60,
+							"line": 59,
 							"character": 14
 						}
 					]
