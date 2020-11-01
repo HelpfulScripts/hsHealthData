@@ -1,20 +1,15 @@
 {
     "name": "hshealth",
     "version": "0.0.1",
-    "main": "./bin/cjs/server/server.js",
-    "module": "./bin/esm/index.js",
-    "files": [
-        "./"
-    ],
-    "types": "./bin/esm/index.d.ts",
-    "type": "module",
+    "main": "./bin/cjs/converter.js",
+    "files": ["./"],
     "scripts": {
         "grunt": "grunt --gruntfile Gruntfile.cjs",
         "prepublishOnly": "npm run grunt",
         "postpublish": "npm version patch"
     },
     "keywords": [],
-    "description": "Helpful Scripts Apple Health Data reader",
+    "description": "Helpful Scripts Apple Health Data converter",
     "license": "MIT",
     "homepage": "",
     "author": {
