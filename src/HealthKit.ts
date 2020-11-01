@@ -299,7 +299,7 @@ class HkRecord extends HkNode {
         healthData.addRecordValue(this.type, node.attributes.sourceName, 'sourceName', true);
         healthData.addRecordValue(this.type, node.attributes.sourceVersion, 'sourceVersion');
         healthData.addRecordValue(this.type, node.attributes.device, 'device', true);
-        healthData.addRecordValue(this.type, +node.attributes.value, 'value');
+        healthData.addRecordValue(this.type, node.attributes.value, 'value');
     }
 
     add(node:sax.Tag):HkNode {
