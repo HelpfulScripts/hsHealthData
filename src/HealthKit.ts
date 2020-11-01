@@ -1,5 +1,4 @@
 /**
-<?xml version="1.0" encoding="UTF-8"?>
 <!-- Note: Any Records that appear as children of a correlation also appear as top-level records in this document. -->
 <!ELEMENT Correlation ((MetadataEntry|Record)*)>
 <!ATTLIST Correlation
@@ -126,12 +125,10 @@ export class HkRoot extends HkNode {
 }
 
 /**
-<!DOCTYPE HealthData [
-    <!-- HealthKit Export Version: 11 -->
-    <!ELEMENT HealthData (ExportDate,Me,(Record|Correlation|Workout|ActivitySummary|ClinicalRecord)*)>
-    <!ATTLIST HealthData
-        locale CDATA #REQUIRED
-    >
+<!ELEMENT HealthData (ExportDate,Me,(Record|Correlation|Workout|ActivitySummary|ClinicalRecord)*)>
+<!ATTLIST HealthData
+    locale CDATA #REQUIRED
+>
  */
 export class HkHealthData extends HkNode {
     locale:             string;
