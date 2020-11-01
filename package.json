@@ -1,6 +1,6 @@
 {
     "name": "hshealthdata",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "main": "./bin/cjs/converter.js",
     "files": [
         "./"
@@ -10,7 +10,10 @@
         "prepublishOnly": "npm run grunt",
         "postpublish": "npm version patch"
     },
-    "keywords": ["health data", "Apple Health Data"],
+    "keywords": [
+        "health data",
+        "Apple Health Data"
+    ],
     "description": "Helpful Scripts Apple Health Data converter",
     "license": "MIT",
     "homepage": "",
