@@ -17,4 +17,5 @@ Install `hsHealthData` from `npm` the standard way:
 > `npm i hshealthdata`
 
 ## Usage
-1. Inside the `hsHealthData` folder, create a folder `data` and copy the XML file inside
+1. Inside the `hsHealthData` folder, create a folder `data` and copy the XML file into it.
+2. run `node .` 
