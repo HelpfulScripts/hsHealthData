@@ -14,7 +14,7 @@ const stack:HkNode[] = [];
 const temp:string[] = [];
 
 async function parse(file:string):Promise<HkNode> {
-    const parser = sax.createStream(true, {});
+    const parser = sax.createStream(true, {}); 
     const size = await hsfs.fileSize(file);
     const stream = fs.createReadStream(file);
     return new Promise((resolve, reject) => {
