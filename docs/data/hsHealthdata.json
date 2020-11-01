@@ -1,0 +1,6047 @@
+{
+	"id": 0,
+	"name": "hsHealthdata",
+	"kind": 0,
+	"flags": {},
+	"children": [
+		{
+			"id": 1,
+			"name": "\"HealthKit\"",
+			"kind": 1,
+			"kindString": "Module",
+			"flags": {
+				"isExported": true
+			},
+			"originalName": "/Users/sth1pal/Documents/Development/JavaScript/nodejs/ts6/dev/hsNode/hsHealthData/src/HealthKit.ts",
+			"children": [
+				{
+					"id": 103,
+					"name": "HkExportDate",
+					"kind": 128,
+					"kindString": "Class",
+					"flags": {
+						"isExported": true
+					},
+					"comment": {
+						"shortText": "<!ELEMENT ExportDate EMPTY>\n<!ATTLIST ExportDate\nvalue CDATA #REQUIRED\n>"
+					},
+					"children": [
+						{
+							"id": 105,
+							"name": "constructor",
+							"kind": 512,
+							"kindString": "Constructor",
+							"flags": {
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 106,
+									"name": "new HkExportDate",
+									"kind": 16384,
+									"kindString": "Constructor signature",
+									"flags": {
+										"isExported": true
+									},
+									"parameters": [
+										{
+											"id": 107,
+											"name": "node",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"type": {
+												"type": "reference",
+												"name": "Tag"
+											}
+										}
+									],
+									"type": {
+										"type": "reference",
+										"id": 103,
+										"name": "HkExportDate"
+									},
+									"overwrites": {
+										"type": "reference",
+										"id": 12,
+										"name": "HkNode.__constructor"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "HealthKit.ts",
+									"line": 223,
+									"character": 15
+								}
+							],
+							"overwrites": {
+								"type": "reference",
+								"id": 12,
+								"name": "HkNode.__constructor"
+							}
+						},
+						{
+							"id": 104,
+							"name": "date",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isExported": true
+							},
+							"sources": [
+								{
+									"fileName": "HealthKit.ts",
+									"line": 223,
+									"character": 8
+								}
+							],
+							"type": {
+								"type": "reference",
+								"name": "Date"
+							}
+						},
+						{
+							"id": 108,
+							"name": "add",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 109,
+									"name": "add",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"isExported": true
+									},
+									"parameters": [
+										{
+											"id": 110,
+											"name": "node",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"type": {
+												"type": "reference",
+												"name": "Tag"
+											}
+										}
+									],
+									"type": {
+										"type": "reference",
+										"id": 11,
+										"name": "HkNode"
+									},
+									"overwrites": {
+										"type": "reference",
+										"id": 14,
+										"name": "HkNode.add"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "HealthKit.ts",
+									"line": 228,
+									"character": 7
+								}
+							],
+							"overwrites": {
+								"type": "reference",
+								"id": 14,
+								"name": "HkNode.add"
+							}
+						},
+						{
+							"id": 119,
+							"name": "addOptional",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 120,
+									"name": "addOptional",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"isExported": true
+									},
+									"parameters": [
+										{
+											"id": 121,
+											"name": "fields",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"type": {
+												"type": "reference",
+												"typeArguments": [
+													{
+														"type": "union",
+														"types": [
+															{
+																"type": "intrinsic",
+																"name": "string"
+															},
+															{
+																"type": "reflection",
+																"declaration": {
+																	"id": 122,
+																	"name": "__type",
+																	"kind": 65536,
+																	"kindString": "Type literal",
+																	"flags": {
+																		"isExported": true
+																	},
+																	"indexSignature": [
+																		{
+																			"id": 123,
+																			"name": "__index",
+																			"kind": 8192,
+																			"kindString": "Index signature",
+																			"flags": {
+																				"isExported": true
+																			},
+																			"parameters": [
+																				{
+																					"id": 124,
+																					"name": "key",
+																					"kind": 32768,
+																					"kindString": "Parameter",
+																					"flags": {
+																						"isExported": true
+																					},
+																					"type": {
+																						"type": "intrinsic",
+																						"name": "string"
+																					}
+																				}
+																			],
+																			"type": {
+																				"type": "reference",
+																				"id": 2,
+																				"name": "Transformer"
+																			}
+																		}
+																	],
+																	"sources": [
+																		{
+																			"fileName": "HealthKit.ts",
+																			"line": 109,
+																			"character": 36
+																		}
+																	]
+																}
+															}
+														]
+													}
+												],
+												"name": "Array"
+											}
+										},
+										{
+											"id": 125,
+											"name": "source",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"type": {
+												"type": "intrinsic",
+												"name": "any"
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "void"
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 25,
+										"name": "HkNode.addOptional"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "HealthKit.ts",
+									"line": 109,
+									"character": 15
+								}
+							],
+							"inheritedFrom": {
+								"type": "reference",
+								"id": 25,
+								"name": "HkNode.addOptional"
+							}
+						},
+						{
+							"id": 114,
+							"name": "addRequired",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 115,
+									"name": "addRequired",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {},
+									"parameters": [
+										{
+											"id": 116,
+											"name": "fields",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"comment": {
+												"text": "e.g. `['field1', {field2:transformer, field3:[sourceName, transformer]}, ...]`"
+											},
+											"type": {
+												"type": "reference",
+												"typeArguments": [
+													{
+														"type": "union",
+														"types": [
+															{
+																"type": "intrinsic",
+																"name": "string"
+															},
+															{
+																"type": "reference",
+																"id": 276,
+																"name": "TransformerMap"
+															}
+														]
+													}
+												],
+												"name": "Array"
+											}
+										},
+										{
+											"id": 117,
+											"name": "source",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"comment": {
+												"text": "e.g. `{value: 5, name:'Joe'}`\n"
+											},
+											"type": {
+												"type": "reference",
+												"id": 272,
+												"name": "StringMap"
+											}
+										},
+										{
+											"id": 118,
+											"name": "required",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"type": {
+												"type": "intrinsic",
+												"name": "boolean"
+											},
+											"defaultValue": "true"
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "void"
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 20,
+										"name": "HkNode.addRequired"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "HealthKit.ts",
+									"line": 87,
+									"character": 15
+								}
+							],
+							"inheritedFrom": {
+								"type": "reference",
+								"id": 20,
+								"name": "HkNode.addRequired"
+							}
+						},
+						{
+							"id": 111,
+							"name": "close",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 112,
+									"name": "close",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"isExported": true
+									},
+									"parameters": [
+										{
+											"id": 113,
+											"name": "p",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"type": {
+												"type": "reference",
+												"id": 11,
+												"name": "HkNode"
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "void"
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 17,
+										"name": "HkNode.close"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "HealthKit.ts",
+									"line": 80,
+									"character": 9
+								}
+							],
+							"inheritedFrom": {
+								"type": "reference",
+								"id": 17,
+								"name": "HkNode.close"
+							}
+						}
+					],
+					"groups": [
+						{
+							"title": "Constructors",
+							"kind": 512,
+							"children": [
+								105
+							]
+						},
+						{
+							"title": "Properties",
+							"kind": 1024,
+							"children": [
+								104
+							]
+						},
+						{
+							"title": "Methods",
+							"kind": 2048,
+							"children": [
+								108,
+								119,
+								114,
+								111
+							]
+						}
+					],
+					"sources": [
+						{
+							"fileName": "HealthKit.ts",
+							"line": 222,
+							"character": 25
+						}
+					],
+					"extendedTypes": [
+						{
+							"type": "reference",
+							"id": 11,
+							"name": "HkNode"
+						}
+					]
+				},
+				{
+					"id": 54,
+					"name": "HkHealthData",
+					"kind": 128,
+					"kindString": "Class",
+					"flags": {
+						"isExported": true
+					},
+					"comment": {
+						"shortText": "<!DOCTYPE HealthData [\n<!-- HealthKit Export Version: 11 -->\n<!ELEMENT HealthData (ExportDate,Me,(Record|Correlation|Workout|ActivitySummary|ClinicalRecord)*)>\n<!ATTLIST HealthData\nlocale CDATA #REQUIRED\n>"
+					},
+					"children": [
+						{
+							"id": 65,
+							"name": "constructor",
+							"kind": 512,
+							"kindString": "Constructor",
+							"flags": {
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 66,
+									"name": "new HkHealthData",
+									"kind": 16384,
+									"kindString": "Constructor signature",
+									"flags": {
+										"isExported": true
+									},
+									"parameters": [
+										{
+											"id": 67,
+											"name": "node",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"type": {
+												"type": "reference",
+												"name": "Tag"
+											}
+										}
+									],
+									"type": {
+										"type": "reference",
+										"id": 54,
+										"name": "HkHealthData"
+									},
+									"overwrites": {
+										"type": "reference",
+										"id": 12,
+										"name": "HkNode.__constructor"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "HealthKit.ts",
+									"line": 142,
+									"character": 70
+								}
+							],
+							"overwrites": {
+								"type": "reference",
+								"id": 12,
+								"name": "HkNode.__constructor"
+							}
+						},
+						{
+							"id": 56,
+							"name": "exportDate",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isExported": true
+							},
+							"sources": [
+								{
+									"fileName": "HealthKit.ts",
+									"line": 138,
+									"character": 14
+								}
+							],
+							"type": {
+								"type": "reference",
+								"name": "Date"
+							}
+						},
+						{
+							"id": 55,
+							"name": "locale",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isExported": true
+							},
+							"sources": [
+								{
+									"fileName": "HealthKit.ts",
+									"line": 137,
+									"character": 10
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "string"
+							}
+						},
+						{
+							"id": 57,
+							"name": "me",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isExported": true
+							},
+							"sources": [
+								{
+									"fileName": "HealthKit.ts",
+									"line": 139,
+									"character": 6
+								}
+							],
+							"type": {
+								"type": "reference",
+								"id": 126,
+								"name": "HkMe"
+							}
+						},
+						{
+							"id": 58,
+							"name": "records",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isExported": true
+							},
+							"sources": [
+								{
+									"fileName": "HealthKit.ts",
+									"line": 140,
+									"character": 11
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "any"
+							}
+						},
+						{
+							"id": 59,
+							"name": "workouts",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isExported": true
+							},
+							"sources": [
+								{
+									"fileName": "HealthKit.ts",
+									"line": 141,
+									"character": 12
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "any"
+							}
+						},
+						{
+							"id": 85,
+							"name": "add",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 86,
+									"name": "add",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"isExported": true
+									},
+									"parameters": [
+										{
+											"id": 87,
+											"name": "node",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"type": {
+												"type": "reference",
+												"name": "Tag"
+											}
+										}
+									],
+									"type": {
+										"type": "reference",
+										"id": 11,
+										"name": "HkNode"
+									},
+									"overwrites": {
+										"type": "reference",
+										"id": 14,
+										"name": "HkNode.add"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "HealthKit.ts",
+									"line": 180,
+									"character": 7
+								}
+							],
+							"overwrites": {
+								"type": "reference",
+								"id": 14,
+								"name": "HkNode.add"
+							}
+						},
+						{
+							"id": 68,
+							"name": "addActivitySummary",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 69,
+									"name": "addActivitySummary",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"isExported": true
+									},
+									"parameters": [
+										{
+											"id": 70,
+											"name": "value",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"type": {
+												"type": "intrinsic",
+												"name": "any"
+											}
+										},
+										{
+											"id": 71,
+											"name": "valueKey",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"type": {
+												"type": "intrinsic",
+												"name": "string"
+											}
+										},
+										{
+											"id": 72,
+											"name": "lookup",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"type": {
+												"type": "intrinsic",
+												"name": "boolean"
+											},
+											"defaultValue": "false"
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "void"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "HealthKit.ts",
+									"line": 149,
+									"character": 22
+								}
+							]
+						},
+						{
+							"id": 96,
+							"name": "addOptional",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 97,
+									"name": "addOptional",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"isExported": true
+									},
+									"parameters": [
+										{
+											"id": 98,
+											"name": "fields",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"type": {
+												"type": "reference",
+												"typeArguments": [
+													{
+														"type": "union",
+														"types": [
+															{
+																"type": "intrinsic",
+																"name": "string"
+															},
+															{
+																"type": "reflection",
+																"declaration": {
+																	"id": 99,
+																	"name": "__type",
+																	"kind": 65536,
+																	"kindString": "Type literal",
+																	"flags": {
+																		"isExported": true
+																	},
+																	"indexSignature": [
+																		{
+																			"id": 100,
+																			"name": "__index",
+																			"kind": 8192,
+																			"kindString": "Index signature",
+																			"flags": {
+																				"isExported": true
+																			},
+																			"parameters": [
+																				{
+																					"id": 101,
+																					"name": "key",
+																					"kind": 32768,
+																					"kindString": "Parameter",
+																					"flags": {
+																						"isExported": true
+																					},
+																					"type": {
+																						"type": "intrinsic",
+																						"name": "string"
+																					}
+																				}
+																			],
+																			"type": {
+																				"type": "reference",
+																				"id": 2,
+																				"name": "Transformer"
+																			}
+																		}
+																	],
+																	"sources": [
+																		{
+																			"fileName": "HealthKit.ts",
+																			"line": 109,
+																			"character": 36
+																		}
+																	]
+																}
+															}
+														]
+													}
+												],
+												"name": "Array"
+											}
+										},
+										{
+											"id": 102,
+											"name": "source",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"type": {
+												"type": "intrinsic",
+												"name": "any"
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "void"
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 25,
+										"name": "HkNode.addOptional"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "HealthKit.ts",
+									"line": 109,
+									"character": 15
+								}
+							],
+							"inheritedFrom": {
+								"type": "reference",
+								"id": 25,
+								"name": "HkNode.addOptional"
+							}
+						},
+						{
+							"id": 79,
+							"name": "addRecordBPMValue",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 80,
+									"name": "addRecordBPMValue",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"isExported": true
+									},
+									"parameters": [
+										{
+											"id": 81,
+											"name": "typeKey",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"type": {
+												"type": "intrinsic",
+												"name": "string"
+											}
+										},
+										{
+											"id": 82,
+											"name": "value",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"type": {
+												"type": "intrinsic",
+												"name": "number"
+											}
+										},
+										{
+											"id": 83,
+											"name": "valueKey",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"type": {
+												"type": "intrinsic",
+												"name": "string"
+											}
+										},
+										{
+											"id": 84,
+											"name": "startDate",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"type": {
+												"type": "intrinsic",
+												"name": "string"
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "void"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "HealthKit.ts",
+									"line": 168,
+									"character": 21
+								}
+							]
+						},
+						{
+							"id": 73,
+							"name": "addRecordValue",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 74,
+									"name": "addRecordValue",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"isExported": true
+									},
+									"parameters": [
+										{
+											"id": 75,
+											"name": "typeKey",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"type": {
+												"type": "intrinsic",
+												"name": "string"
+											}
+										},
+										{
+											"id": 76,
+											"name": "value",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"type": {
+												"type": "intrinsic",
+												"name": "any"
+											}
+										},
+										{
+											"id": 77,
+											"name": "valueKey",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"type": {
+												"type": "intrinsic",
+												"name": "string"
+											}
+										},
+										{
+											"id": 78,
+											"name": "lookup",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"type": {
+												"type": "intrinsic",
+												"name": "boolean"
+											},
+											"defaultValue": "false"
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "void"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "HealthKit.ts",
+									"line": 158,
+									"character": 18
+								}
+							]
+						},
+						{
+							"id": 91,
+							"name": "addRequired",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 92,
+									"name": "addRequired",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {},
+									"parameters": [
+										{
+											"id": 93,
+											"name": "fields",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"comment": {
+												"text": "e.g. `['field1', {field2:transformer, field3:[sourceName, transformer]}, ...]`"
+											},
+											"type": {
+												"type": "reference",
+												"typeArguments": [
+													{
+														"type": "union",
+														"types": [
+															{
+																"type": "intrinsic",
+																"name": "string"
+															},
+															{
+																"type": "reference",
+																"id": 276,
+																"name": "TransformerMap"
+															}
+														]
+													}
+												],
+												"name": "Array"
+											}
+										},
+										{
+											"id": 94,
+											"name": "source",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"comment": {
+												"text": "e.g. `{value: 5, name:'Joe'}`\n"
+											},
+											"type": {
+												"type": "reference",
+												"id": 272,
+												"name": "StringMap"
+											}
+										},
+										{
+											"id": 95,
+											"name": "required",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"type": {
+												"type": "intrinsic",
+												"name": "boolean"
+											},
+											"defaultValue": "true"
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "void"
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 20,
+										"name": "HkNode.addRequired"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "HealthKit.ts",
+									"line": 87,
+									"character": 15
+								}
+							],
+							"inheritedFrom": {
+								"type": "reference",
+								"id": 20,
+								"name": "HkNode.addRequired"
+							}
+						},
+						{
+							"id": 88,
+							"name": "close",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 89,
+									"name": "close",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"isExported": true
+									},
+									"parameters": [
+										{
+											"id": 90,
+											"name": "p",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"type": {
+												"type": "reference",
+												"id": 11,
+												"name": "HkNode"
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "void"
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 17,
+										"name": "HkNode.close"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "HealthKit.ts",
+									"line": 80,
+									"character": 9
+								}
+							],
+							"inheritedFrom": {
+								"type": "reference",
+								"id": 17,
+								"name": "HkNode.close"
+							}
+						},
+						{
+							"id": 60,
+							"name": "activitySummaries",
+							"kind": 2097152,
+							"kindString": "Object literal",
+							"flags": {
+								"isExported": true
+							},
+							"children": [
+								{
+									"id": 63,
+									"name": "abbr",
+									"kind": 32,
+									"kindString": "Variable",
+									"flags": {
+										"isExported": true
+									},
+									"sources": [
+										{
+											"fileName": "HealthKit.ts",
+											"line": 142,
+											"character": 65
+										}
+									],
+									"type": {
+										"type": "reflection",
+										"declaration": {
+											"id": 64,
+											"name": "__type",
+											"kind": 65536,
+											"kindString": "Type literal",
+											"flags": {
+												"isExported": true
+											}
+										}
+									}
+								},
+								{
+									"id": 61,
+									"name": "header",
+									"kind": 32,
+									"kindString": "Variable",
+									"flags": {
+										"isExported": true
+									},
+									"sources": [
+										{
+											"fileName": "HealthKit.ts",
+											"line": 142,
+											"character": 35
+										}
+									],
+									"type": {
+										"type": "array",
+										"elementType": {
+											"type": "intrinsic",
+											"name": "string"
+										}
+									},
+									"defaultValue": "<string[]>[]"
+								},
+								{
+									"id": 62,
+									"name": "values",
+									"kind": 32,
+									"kindString": "Variable",
+									"flags": {
+										"isExported": true
+									},
+									"sources": [
+										{
+											"fileName": "HealthKit.ts",
+											"line": 142,
+											"character": 56
+										}
+									],
+									"type": {
+										"type": "array",
+										"elementType": {
+											"type": "intrinsic",
+											"name": "undefined"
+										}
+									},
+									"defaultValue": "[]"
+								}
+							],
+							"groups": [
+								{
+									"title": "Variables",
+									"kind": 32,
+									"children": [
+										63,
+										61,
+										62
+									]
+								}
+							],
+							"sources": [
+								{
+									"fileName": "HealthKit.ts",
+									"line": 142,
+									"character": 21
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "object"
+							}
+						}
+					],
+					"groups": [
+						{
+							"title": "Constructors",
+							"kind": 512,
+							"children": [
+								65
+							]
+						},
+						{
+							"title": "Properties",
+							"kind": 1024,
+							"children": [
+								56,
+								55,
+								57,
+								58,
+								59
+							]
+						},
+						{
+							"title": "Methods",
+							"kind": 2048,
+							"children": [
+								85,
+								68,
+								96,
+								79,
+								73,
+								91,
+								88
+							]
+						},
+						{
+							"title": "Object literals",
+							"kind": 2097152,
+							"children": [
+								60
+							]
+						}
+					],
+					"sources": [
+						{
+							"fileName": "HealthKit.ts",
+							"line": 136,
+							"character": 25
+						}
+					],
+					"extendedTypes": [
+						{
+							"type": "reference",
+							"id": 11,
+							"name": "HkNode"
+						}
+					]
+				},
+				{
+					"id": 180,
+					"name": "HkHeartRateVariabilityMetadataList",
+					"kind": 128,
+					"kindString": "Class",
+					"flags": {},
+					"comment": {
+						"shortText": "<!-- Note: Heart Rate Variability records captured by Apple Watch may include an associated list of instantaneous beats-per-minute readings. -->\n<!ELEMENT HeartRateVariabilityMetadataList (InstantaneousBeatsPerMinute*)>"
+					},
+					"children": [
+						{
+							"id": 181,
+							"name": "constructor",
+							"kind": 512,
+							"kindString": "Constructor",
+							"flags": {},
+							"signatures": [
+								{
+									"id": 183,
+									"name": "new HkHeartRateVariabilityMetadataList",
+									"kind": 16384,
+									"kindString": "Constructor signature",
+									"flags": {},
+									"parameters": [
+										{
+											"id": 184,
+											"name": "node",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {},
+											"type": {
+												"type": "reference",
+												"name": "Tag"
+											}
+										},
+										{
+											"id": 185,
+											"name": "parent",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {},
+											"type": {
+												"type": "reference",
+												"id": 152,
+												"name": "HkRecord"
+											}
+										}
+									],
+									"type": {
+										"type": "reference",
+										"id": 180,
+										"name": "HkHeartRateVariabilityMetadataList"
+									},
+									"overwrites": {
+										"type": "reference",
+										"id": 12,
+										"name": "HkNode.__constructor"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "HealthKit.ts",
+									"line": 331,
+									"character": 57
+								}
+							],
+							"overwrites": {
+								"type": "reference",
+								"id": 12,
+								"name": "HkNode.__constructor"
+							}
+						},
+						{
+							"id": 182,
+							"name": "parent",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isProtected": true,
+								"isConstructorProperty": true
+							},
+							"sources": [
+								{
+									"fileName": "HealthKit.ts",
+									"line": 332,
+									"character": 46
+								}
+							],
+							"type": {
+								"type": "reference",
+								"id": 152,
+								"name": "HkRecord"
+							}
+						},
+						{
+							"id": 186,
+							"name": "add",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {},
+							"signatures": [
+								{
+									"id": 187,
+									"name": "add",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {},
+									"parameters": [
+										{
+											"id": 188,
+											"name": "node",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {},
+											"type": {
+												"type": "reference",
+												"name": "Tag"
+											}
+										}
+									],
+									"type": {
+										"type": "reference",
+										"id": 11,
+										"name": "HkNode"
+									},
+									"overwrites": {
+										"type": "reference",
+										"id": 14,
+										"name": "HkNode.add"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "HealthKit.ts",
+									"line": 335,
+									"character": 7
+								}
+							],
+							"overwrites": {
+								"type": "reference",
+								"id": 14,
+								"name": "HkNode.add"
+							}
+						},
+						{
+							"id": 197,
+							"name": "addOptional",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {},
+							"signatures": [
+								{
+									"id": 198,
+									"name": "addOptional",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {},
+									"parameters": [
+										{
+											"id": 199,
+											"name": "fields",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {},
+											"type": {
+												"type": "reference",
+												"typeArguments": [
+													{
+														"type": "union",
+														"types": [
+															{
+																"type": "intrinsic",
+																"name": "string"
+															},
+															{
+																"type": "reflection",
+																"declaration": {
+																	"id": 200,
+																	"name": "__type",
+																	"kind": 65536,
+																	"kindString": "Type literal",
+																	"flags": {},
+																	"indexSignature": [
+																		{
+																			"id": 201,
+																			"name": "__index",
+																			"kind": 8192,
+																			"kindString": "Index signature",
+																			"flags": {},
+																			"parameters": [
+																				{
+																					"id": 202,
+																					"name": "key",
+																					"kind": 32768,
+																					"kindString": "Parameter",
+																					"flags": {},
+																					"type": {
+																						"type": "intrinsic",
+																						"name": "string"
+																					}
+																				}
+																			],
+																			"type": {
+																				"type": "reference",
+																				"id": 2,
+																				"name": "Transformer"
+																			}
+																		}
+																	],
+																	"sources": [
+																		{
+																			"fileName": "HealthKit.ts",
+																			"line": 109,
+																			"character": 36
+																		}
+																	]
+																}
+															}
+														]
+													}
+												],
+												"name": "Array"
+											}
+										},
+										{
+											"id": 203,
+											"name": "source",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {},
+											"type": {
+												"type": "intrinsic",
+												"name": "any"
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "void"
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 25,
+										"name": "HkNode.addOptional"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "HealthKit.ts",
+									"line": 109,
+									"character": 15
+								}
+							],
+							"inheritedFrom": {
+								"type": "reference",
+								"id": 25,
+								"name": "HkNode.addOptional"
+							}
+						},
+						{
+							"id": 192,
+							"name": "addRequired",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {},
+							"signatures": [
+								{
+									"id": 193,
+									"name": "addRequired",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {},
+									"comment": {},
+									"parameters": [
+										{
+											"id": 194,
+											"name": "fields",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {},
+											"comment": {
+												"text": "e.g. `['field1', {field2:transformer, field3:[sourceName, transformer]}, ...]`"
+											},
+											"type": {
+												"type": "reference",
+												"typeArguments": [
+													{
+														"type": "union",
+														"types": [
+															{
+																"type": "intrinsic",
+																"name": "string"
+															},
+															{
+																"type": "reference",
+																"id": 276,
+																"name": "TransformerMap"
+															}
+														]
+													}
+												],
+												"name": "Array"
+											}
+										},
+										{
+											"id": 195,
+											"name": "source",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {},
+											"comment": {
+												"text": "e.g. `{value: 5, name:'Joe'}`\n"
+											},
+											"type": {
+												"type": "reference",
+												"id": 272,
+												"name": "StringMap"
+											}
+										},
+										{
+											"id": 196,
+											"name": "required",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {},
+											"type": {
+												"type": "intrinsic",
+												"name": "boolean"
+											},
+											"defaultValue": "true"
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "void"
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 20,
+										"name": "HkNode.addRequired"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "HealthKit.ts",
+									"line": 87,
+									"character": 15
+								}
+							],
+							"inheritedFrom": {
+								"type": "reference",
+								"id": 20,
+								"name": "HkNode.addRequired"
+							}
+						},
+						{
+							"id": 189,
+							"name": "close",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {},
+							"signatures": [
+								{
+									"id": 190,
+									"name": "close",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {},
+									"parameters": [
+										{
+											"id": 191,
+											"name": "p",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {},
+											"type": {
+												"type": "reference",
+												"id": 11,
+												"name": "HkNode"
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "void"
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 17,
+										"name": "HkNode.close"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "HealthKit.ts",
+									"line": 80,
+									"character": 9
+								}
+							],
+							"inheritedFrom": {
+								"type": "reference",
+								"id": 17,
+								"name": "HkNode.close"
+							}
+						}
+					],
+					"groups": [
+						{
+							"title": "Constructors",
+							"kind": 512,
+							"children": [
+								181
+							]
+						},
+						{
+							"title": "Properties",
+							"kind": 1024,
+							"children": [
+								182
+							]
+						},
+						{
+							"title": "Methods",
+							"kind": 2048,
+							"children": [
+								186,
+								197,
+								192,
+								189
+							]
+						}
+					],
+					"sources": [
+						{
+							"fileName": "HealthKit.ts",
+							"line": 331,
+							"character": 40
+						}
+					],
+					"extendedTypes": [
+						{
+							"type": "reference",
+							"id": 11,
+							"name": "HkNode"
+						}
+					]
+				},
+				{
+					"id": 126,
+					"name": "HkMe",
+					"kind": 128,
+					"kindString": "Class",
+					"flags": {
+						"isExported": true
+					},
+					"comment": {
+						"shortText": "<!ELEMENT Me EMPTY>\n<!ATTLIST Me\nHKCharacteristicTypeIdentifierDateOfBirth         CDATA #REQUIRED\nHKCharacteristicTypeIdentifierBiologicalSex       CDATA #REQUIRED\nHKCharacteristicTypeIdentifierBloodType           CDATA #REQUIRED\nHKCharacteristicTypeIdentifierFitzpatrickSkinType CDATA #REQUIRED\n>"
+					},
+					"children": [
+						{
+							"id": 131,
+							"name": "constructor",
+							"kind": 512,
+							"kindString": "Constructor",
+							"flags": {
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 132,
+									"name": "new HkMe",
+									"kind": 16384,
+									"kindString": "Constructor signature",
+									"flags": {
+										"isExported": true
+									},
+									"parameters": [
+										{
+											"id": 133,
+											"name": "node",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"type": {
+												"type": "reference",
+												"name": "Tag"
+											}
+										}
+									],
+									"type": {
+										"type": "reference",
+										"id": 126,
+										"name": "HkMe"
+									},
+									"overwrites": {
+										"type": "reference",
+										"id": 12,
+										"name": "HkNode.__constructor"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "HealthKit.ts",
+									"line": 246,
+									"character": 21
+								}
+							],
+							"overwrites": {
+								"type": "reference",
+								"id": 12,
+								"name": "HkNode.__constructor"
+							}
+						},
+						{
+							"id": 128,
+							"name": "biologicalSex",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isExported": true
+							},
+							"sources": [
+								{
+									"fileName": "HealthKit.ts",
+									"line": 244,
+									"character": 17
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "string"
+							}
+						},
+						{
+							"id": 129,
+							"name": "bloodType",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isExported": true
+							},
+							"sources": [
+								{
+									"fileName": "HealthKit.ts",
+									"line": 245,
+									"character": 13
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "string"
+							}
+						},
+						{
+							"id": 127,
+							"name": "dateOfBirth",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isExported": true
+							},
+							"sources": [
+								{
+									"fileName": "HealthKit.ts",
+									"line": 243,
+									"character": 15
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "string"
+							}
+						},
+						{
+							"id": 130,
+							"name": "skinType",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isExported": true
+							},
+							"sources": [
+								{
+									"fileName": "HealthKit.ts",
+									"line": 246,
+									"character": 12
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "string"
+							}
+						},
+						{
+							"id": 134,
+							"name": "add",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 135,
+									"name": "add",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"isExported": true
+									},
+									"parameters": [
+										{
+											"id": 136,
+											"name": "node",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"type": {
+												"type": "reference",
+												"name": "Tag"
+											}
+										}
+									],
+									"type": {
+										"type": "reference",
+										"id": 11,
+										"name": "HkNode"
+									},
+									"overwrites": {
+										"type": "reference",
+										"id": 14,
+										"name": "HkNode.add"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "HealthKit.ts",
+									"line": 256,
+									"character": 7
+								}
+							],
+							"overwrites": {
+								"type": "reference",
+								"id": 14,
+								"name": "HkNode.add"
+							}
+						},
+						{
+							"id": 145,
+							"name": "addOptional",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 146,
+									"name": "addOptional",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"isExported": true
+									},
+									"parameters": [
+										{
+											"id": 147,
+											"name": "fields",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"type": {
+												"type": "reference",
+												"typeArguments": [
+													{
+														"type": "union",
+														"types": [
+															{
+																"type": "intrinsic",
+																"name": "string"
+															},
+															{
+																"type": "reflection",
+																"declaration": {
+																	"id": 148,
+																	"name": "__type",
+																	"kind": 65536,
+																	"kindString": "Type literal",
+																	"flags": {
+																		"isExported": true
+																	},
+																	"indexSignature": [
+																		{
+																			"id": 149,
+																			"name": "__index",
+																			"kind": 8192,
+																			"kindString": "Index signature",
+																			"flags": {
+																				"isExported": true
+																			},
+																			"parameters": [
+																				{
+																					"id": 150,
+																					"name": "key",
+																					"kind": 32768,
+																					"kindString": "Parameter",
+																					"flags": {
+																						"isExported": true
+																					},
+																					"type": {
+																						"type": "intrinsic",
+																						"name": "string"
+																					}
+																				}
+																			],
+																			"type": {
+																				"type": "reference",
+																				"id": 2,
+																				"name": "Transformer"
+																			}
+																		}
+																	],
+																	"sources": [
+																		{
+																			"fileName": "HealthKit.ts",
+																			"line": 109,
+																			"character": 36
+																		}
+																	]
+																}
+															}
+														]
+													}
+												],
+												"name": "Array"
+											}
+										},
+										{
+											"id": 151,
+											"name": "source",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"type": {
+												"type": "intrinsic",
+												"name": "any"
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "void"
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 25,
+										"name": "HkNode.addOptional"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "HealthKit.ts",
+									"line": 109,
+									"character": 15
+								}
+							],
+							"inheritedFrom": {
+								"type": "reference",
+								"id": 25,
+								"name": "HkNode.addOptional"
+							}
+						},
+						{
+							"id": 140,
+							"name": "addRequired",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 141,
+									"name": "addRequired",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {},
+									"parameters": [
+										{
+											"id": 142,
+											"name": "fields",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"comment": {
+												"text": "e.g. `['field1', {field2:transformer, field3:[sourceName, transformer]}, ...]`"
+											},
+											"type": {
+												"type": "reference",
+												"typeArguments": [
+													{
+														"type": "union",
+														"types": [
+															{
+																"type": "intrinsic",
+																"name": "string"
+															},
+															{
+																"type": "reference",
+																"id": 276,
+																"name": "TransformerMap"
+															}
+														]
+													}
+												],
+												"name": "Array"
+											}
+										},
+										{
+											"id": 143,
+											"name": "source",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"comment": {
+												"text": "e.g. `{value: 5, name:'Joe'}`\n"
+											},
+											"type": {
+												"type": "reference",
+												"id": 272,
+												"name": "StringMap"
+											}
+										},
+										{
+											"id": 144,
+											"name": "required",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"type": {
+												"type": "intrinsic",
+												"name": "boolean"
+											},
+											"defaultValue": "true"
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "void"
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 20,
+										"name": "HkNode.addRequired"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "HealthKit.ts",
+									"line": 87,
+									"character": 15
+								}
+							],
+							"inheritedFrom": {
+								"type": "reference",
+								"id": 20,
+								"name": "HkNode.addRequired"
+							}
+						},
+						{
+							"id": 137,
+							"name": "close",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 138,
+									"name": "close",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"isExported": true
+									},
+									"parameters": [
+										{
+											"id": 139,
+											"name": "p",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"type": {
+												"type": "reference",
+												"id": 11,
+												"name": "HkNode"
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "void"
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 17,
+										"name": "HkNode.close"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "HealthKit.ts",
+									"line": 80,
+									"character": 9
+								}
+							],
+							"inheritedFrom": {
+								"type": "reference",
+								"id": 17,
+								"name": "HkNode.close"
+							}
+						}
+					],
+					"groups": [
+						{
+							"title": "Constructors",
+							"kind": 512,
+							"children": [
+								131
+							]
+						},
+						{
+							"title": "Properties",
+							"kind": 1024,
+							"children": [
+								128,
+								129,
+								127,
+								130
+							]
+						},
+						{
+							"title": "Methods",
+							"kind": 2048,
+							"children": [
+								134,
+								145,
+								140,
+								137
+							]
+						}
+					],
+					"sources": [
+						{
+							"fileName": "HealthKit.ts",
+							"line": 242,
+							"character": 17
+						}
+					],
+					"extendedTypes": [
+						{
+							"type": "reference",
+							"id": 11,
+							"name": "HkNode"
+						}
+					]
+				},
+				{
+					"id": 11,
+					"name": "HkNode",
+					"kind": 128,
+					"kindString": "Class",
+					"flags": {
+						"isExported": true,
+						"isAbstract": true
+					},
+					"children": [
+						{
+							"id": 12,
+							"name": "constructor",
+							"kind": 512,
+							"kindString": "Constructor",
+							"flags": {
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 13,
+									"name": "new HkNode",
+									"kind": 16384,
+									"kindString": "Constructor signature",
+									"flags": {
+										"isExported": true
+									},
+									"type": {
+										"type": "reference",
+										"id": 11,
+										"name": "HkNode"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "HealthKit.ts",
+									"line": 77,
+									"character": 30
+								}
+							]
+						},
+						{
+							"id": 14,
+							"name": "add",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isExported": true,
+								"isAbstract": true
+							},
+							"signatures": [
+								{
+									"id": 15,
+									"name": "add",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"isExported": true
+									},
+									"parameters": [
+										{
+											"id": 16,
+											"name": "node",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"type": {
+												"type": "reference",
+												"name": "Tag"
+											}
+										}
+									],
+									"type": {
+										"type": "reference",
+										"id": 11,
+										"name": "HkNode"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "HealthKit.ts",
+									"line": 79,
+									"character": 16
+								}
+							]
+						},
+						{
+							"id": 25,
+							"name": "addOptional",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 26,
+									"name": "addOptional",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"isExported": true
+									},
+									"parameters": [
+										{
+											"id": 27,
+											"name": "fields",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"type": {
+												"type": "reference",
+												"typeArguments": [
+													{
+														"type": "union",
+														"types": [
+															{
+																"type": "intrinsic",
+																"name": "string"
+															},
+															{
+																"type": "reflection",
+																"declaration": {
+																	"id": 28,
+																	"name": "__type",
+																	"kind": 65536,
+																	"kindString": "Type literal",
+																	"flags": {
+																		"isExported": true
+																	},
+																	"indexSignature": [
+																		{
+																			"id": 29,
+																			"name": "__index",
+																			"kind": 8192,
+																			"kindString": "Index signature",
+																			"flags": {
+																				"isExported": true
+																			},
+																			"parameters": [
+																				{
+																					"id": 30,
+																					"name": "key",
+																					"kind": 32768,
+																					"kindString": "Parameter",
+																					"flags": {
+																						"isExported": true
+																					},
+																					"type": {
+																						"type": "intrinsic",
+																						"name": "string"
+																					}
+																				}
+																			],
+																			"type": {
+																				"type": "reference",
+																				"id": 2,
+																				"name": "Transformer"
+																			}
+																		}
+																	],
+																	"sources": [
+																		{
+																			"fileName": "HealthKit.ts",
+																			"line": 109,
+																			"character": 36
+																		}
+																	]
+																}
+															}
+														]
+													}
+												],
+												"name": "Array"
+											}
+										},
+										{
+											"id": 31,
+											"name": "source",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"type": {
+												"type": "intrinsic",
+												"name": "any"
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "void"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "HealthKit.ts",
+									"line": 109,
+									"character": 15
+								}
+							]
+						},
+						{
+							"id": 20,
+							"name": "addRequired",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 21,
+									"name": "addRequired",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {},
+									"parameters": [
+										{
+											"id": 22,
+											"name": "fields",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"comment": {
+												"text": "e.g. `['field1', {field2:transformer, field3:[sourceName, transformer]}, ...]`"
+											},
+											"type": {
+												"type": "reference",
+												"typeArguments": [
+													{
+														"type": "union",
+														"types": [
+															{
+																"type": "intrinsic",
+																"name": "string"
+															},
+															{
+																"type": "reference",
+																"id": 276,
+																"name": "TransformerMap"
+															}
+														]
+													}
+												],
+												"name": "Array"
+											}
+										},
+										{
+											"id": 23,
+											"name": "source",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"comment": {
+												"text": "e.g. `{value: 5, name:'Joe'}`\n"
+											},
+											"type": {
+												"type": "reference",
+												"id": 272,
+												"name": "StringMap"
+											}
+										},
+										{
+											"id": 24,
+											"name": "required",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"type": {
+												"type": "intrinsic",
+												"name": "boolean"
+											},
+											"defaultValue": "true"
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "void"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "HealthKit.ts",
+									"line": 87,
+									"character": 15
+								}
+							]
+						},
+						{
+							"id": 17,
+							"name": "close",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 18,
+									"name": "close",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"isExported": true
+									},
+									"parameters": [
+										{
+											"id": 19,
+											"name": "p",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"type": {
+												"type": "reference",
+												"id": 11,
+												"name": "HkNode"
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "void"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "HealthKit.ts",
+									"line": 80,
+									"character": 9
+								}
+							]
+						}
+					],
+					"groups": [
+						{
+							"title": "Constructors",
+							"kind": 512,
+							"children": [
+								12
+							]
+						},
+						{
+							"title": "Methods",
+							"kind": 2048,
+							"children": [
+								14,
+								25,
+								20,
+								17
+							]
+						}
+					],
+					"sources": [
+						{
+							"fileName": "HealthKit.ts",
+							"line": 77,
+							"character": 28
+						}
+					],
+					"extendedBy": [
+						{
+							"type": "reference",
+							"id": 32,
+							"name": "HkRoot"
+						},
+						{
+							"type": "reference",
+							"id": 54,
+							"name": "HkHealthData"
+						},
+						{
+							"type": "reference",
+							"id": 103,
+							"name": "HkExportDate"
+						},
+						{
+							"type": "reference",
+							"id": 126,
+							"name": "HkMe"
+						},
+						{
+							"type": "reference",
+							"id": 152,
+							"name": "HkRecord"
+						},
+						{
+							"type": "reference",
+							"id": 180,
+							"name": "HkHeartRateVariabilityMetadataList"
+						},
+						{
+							"type": "reference",
+							"id": 204,
+							"name": "HkWorkout"
+						},
+						{
+							"type": "reference",
+							"id": 245,
+							"name": "HkWorkoutRoute"
+						}
+					]
+				},
+				{
+					"id": 152,
+					"name": "HkRecord",
+					"kind": 128,
+					"kindString": "Class",
+					"flags": {},
+					"comment": {
+						"shortText": "<!ELEMENT Record ((MetadataEntry|HeartRateVariabilityMetadataList)*)>\n<!ATTLIST Record\ntype          CDATA #REQUIRED\nunit          CDATA #IMPLIED\nvalue         CDATA #IMPLIED\nsourceName    CDATA #REQUIRED\nsourceVersion CDATA #IMPLIED\ndevice        CDATA #IMPLIED\ncreationDate  CDATA #IMPLIED\nstartDate     CDATA #REQUIRED\nendDate       CDATA #REQUIRED\n>"
+					},
+					"children": [
+						{
+							"id": 157,
+							"name": "constructor",
+							"kind": 512,
+							"kindString": "Constructor",
+							"flags": {},
+							"signatures": [
+								{
+									"id": 159,
+									"name": "new HkRecord",
+									"kind": 16384,
+									"kindString": "Constructor signature",
+									"flags": {},
+									"parameters": [
+										{
+											"id": 160,
+											"name": "node",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {},
+											"type": {
+												"type": "reference",
+												"name": "Tag"
+											}
+										},
+										{
+											"id": 161,
+											"name": "healthData",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {},
+											"type": {
+												"type": "reference",
+												"id": 54,
+												"name": "HkHealthData"
+											}
+										}
+									],
+									"type": {
+										"type": "reference",
+										"id": 152,
+										"name": "HkRecord"
+									},
+									"overwrites": {
+										"type": "reference",
+										"id": 12,
+										"name": "HkNode.__constructor"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "HealthKit.ts",
+									"line": 279,
+									"character": 22
+								}
+							],
+							"overwrites": {
+								"type": "reference",
+								"id": 12,
+								"name": "HkNode.__constructor"
+							}
+						},
+						{
+							"id": 158,
+							"name": "healthData",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isPublic": true,
+								"isConstructorProperty": true
+							},
+							"sources": [
+								{
+									"fileName": "HealthKit.ts",
+									"line": 280,
+									"character": 47
+								}
+							],
+							"type": {
+								"type": "reference",
+								"id": 54,
+								"name": "HkHealthData"
+							}
+						},
+						{
+							"id": 156,
+							"name": "startDate",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "HealthKit.ts",
+									"line": 279,
+									"character": 13
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "string"
+							}
+						},
+						{
+							"id": 155,
+							"name": "type",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "HealthKit.ts",
+									"line": 278,
+									"character": 8
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "string"
+							}
+						},
+						{
+							"id": 153,
+							"name": "types",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isStatic": true
+							},
+							"sources": [
+								{
+									"fileName": "HealthKit.ts",
+									"line": 277,
+									"character": 16
+								}
+							],
+							"type": {
+								"type": "reflection",
+								"declaration": {
+									"id": 154,
+									"name": "__type",
+									"kind": 65536,
+									"kindString": "Type literal",
+									"flags": {}
+								}
+							}
+						},
+						{
+							"id": 162,
+							"name": "add",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {},
+							"signatures": [
+								{
+									"id": 163,
+									"name": "add",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {},
+									"parameters": [
+										{
+											"id": 164,
+											"name": "node",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {},
+											"type": {
+												"type": "reference",
+												"name": "Tag"
+											}
+										}
+									],
+									"type": {
+										"type": "reference",
+										"id": 11,
+										"name": "HkNode"
+									},
+									"overwrites": {
+										"type": "reference",
+										"id": 14,
+										"name": "HkNode.add"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "HealthKit.ts",
+									"line": 305,
+									"character": 7
+								}
+							],
+							"overwrites": {
+								"type": "reference",
+								"id": 14,
+								"name": "HkNode.add"
+							}
+						},
+						{
+							"id": 173,
+							"name": "addOptional",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {},
+							"signatures": [
+								{
+									"id": 174,
+									"name": "addOptional",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {},
+									"parameters": [
+										{
+											"id": 175,
+											"name": "fields",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {},
+											"type": {
+												"type": "reference",
+												"typeArguments": [
+													{
+														"type": "union",
+														"types": [
+															{
+																"type": "intrinsic",
+																"name": "string"
+															},
+															{
+																"type": "reflection",
+																"declaration": {
+																	"id": 176,
+																	"name": "__type",
+																	"kind": 65536,
+																	"kindString": "Type literal",
+																	"flags": {},
+																	"indexSignature": [
+																		{
+																			"id": 177,
+																			"name": "__index",
+																			"kind": 8192,
+																			"kindString": "Index signature",
+																			"flags": {},
+																			"parameters": [
+																				{
+																					"id": 178,
+																					"name": "key",
+																					"kind": 32768,
+																					"kindString": "Parameter",
+																					"flags": {},
+																					"type": {
+																						"type": "intrinsic",
+																						"name": "string"
+																					}
+																				}
+																			],
+																			"type": {
+																				"type": "reference",
+																				"id": 2,
+																				"name": "Transformer"
+																			}
+																		}
+																	],
+																	"sources": [
+																		{
+																			"fileName": "HealthKit.ts",
+																			"line": 109,
+																			"character": 36
+																		}
+																	]
+																}
+															}
+														]
+													}
+												],
+												"name": "Array"
+											}
+										},
+										{
+											"id": 179,
+											"name": "source",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {},
+											"type": {
+												"type": "intrinsic",
+												"name": "any"
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "void"
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 25,
+										"name": "HkNode.addOptional"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "HealthKit.ts",
+									"line": 109,
+									"character": 15
+								}
+							],
+							"inheritedFrom": {
+								"type": "reference",
+								"id": 25,
+								"name": "HkNode.addOptional"
+							}
+						},
+						{
+							"id": 168,
+							"name": "addRequired",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {},
+							"signatures": [
+								{
+									"id": 169,
+									"name": "addRequired",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {},
+									"comment": {},
+									"parameters": [
+										{
+											"id": 170,
+											"name": "fields",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {},
+											"comment": {
+												"text": "e.g. `['field1', {field2:transformer, field3:[sourceName, transformer]}, ...]`"
+											},
+											"type": {
+												"type": "reference",
+												"typeArguments": [
+													{
+														"type": "union",
+														"types": [
+															{
+																"type": "intrinsic",
+																"name": "string"
+															},
+															{
+																"type": "reference",
+																"id": 276,
+																"name": "TransformerMap"
+															}
+														]
+													}
+												],
+												"name": "Array"
+											}
+										},
+										{
+											"id": 171,
+											"name": "source",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {},
+											"comment": {
+												"text": "e.g. `{value: 5, name:'Joe'}`\n"
+											},
+											"type": {
+												"type": "reference",
+												"id": 272,
+												"name": "StringMap"
+											}
+										},
+										{
+											"id": 172,
+											"name": "required",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {},
+											"type": {
+												"type": "intrinsic",
+												"name": "boolean"
+											},
+											"defaultValue": "true"
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "void"
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 20,
+										"name": "HkNode.addRequired"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "HealthKit.ts",
+									"line": 87,
+									"character": 15
+								}
+							],
+							"inheritedFrom": {
+								"type": "reference",
+								"id": 20,
+								"name": "HkNode.addRequired"
+							}
+						},
+						{
+							"id": 165,
+							"name": "close",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {},
+							"signatures": [
+								{
+									"id": 166,
+									"name": "close",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {},
+									"parameters": [
+										{
+											"id": 167,
+											"name": "p",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {},
+											"type": {
+												"type": "reference",
+												"id": 11,
+												"name": "HkNode"
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "void"
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 17,
+										"name": "HkNode.close"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "HealthKit.ts",
+									"line": 80,
+									"character": 9
+								}
+							],
+							"inheritedFrom": {
+								"type": "reference",
+								"id": 17,
+								"name": "HkNode.close"
+							}
+						}
+					],
+					"groups": [
+						{
+							"title": "Constructors",
+							"kind": 512,
+							"children": [
+								157
+							]
+						},
+						{
+							"title": "Properties",
+							"kind": 1024,
+							"children": [
+								158,
+								156,
+								155,
+								153
+							]
+						},
+						{
+							"title": "Methods",
+							"kind": 2048,
+							"children": [
+								162,
+								173,
+								168,
+								165
+							]
+						}
+					],
+					"sources": [
+						{
+							"fileName": "HealthKit.ts",
+							"line": 276,
+							"character": 14
+						}
+					],
+					"extendedTypes": [
+						{
+							"type": "reference",
+							"id": 11,
+							"name": "HkNode"
+						}
+					]
+				},
+				{
+					"id": 32,
+					"name": "HkRoot",
+					"kind": 128,
+					"kindString": "Class",
+					"flags": {
+						"isExported": true
+					},
+					"children": [
+						{
+							"id": 34,
+							"name": "constructor",
+							"kind": 512,
+							"kindString": "Constructor",
+							"flags": {
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 35,
+									"name": "new HkRoot",
+									"kind": 16384,
+									"kindString": "Constructor signature",
+									"flags": {
+										"isExported": true
+									},
+									"type": {
+										"type": "reference",
+										"id": 32,
+										"name": "HkRoot"
+									},
+									"overwrites": {
+										"type": "reference",
+										"id": 12,
+										"name": "HkNode.__constructor"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "HealthKit.ts",
+									"line": 115,
+									"character": 28
+								}
+							],
+							"overwrites": {
+								"type": "reference",
+								"id": 12,
+								"name": "HkNode.__constructor"
+							}
+						},
+						{
+							"id": 33,
+							"name": "healthData",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isExported": true
+							},
+							"sources": [
+								{
+									"fileName": "HealthKit.ts",
+									"line": 115,
+									"character": 14
+								}
+							],
+							"type": {
+								"type": "reference",
+								"id": 54,
+								"name": "HkHealthData"
+							}
+						},
+						{
+							"id": 36,
+							"name": "add",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 37,
+									"name": "add",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"isExported": true
+									},
+									"parameters": [
+										{
+											"id": 38,
+											"name": "node",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"type": {
+												"type": "reference",
+												"name": "Tag"
+											}
+										}
+									],
+									"type": {
+										"type": "reference",
+										"id": 11,
+										"name": "HkNode"
+									},
+									"overwrites": {
+										"type": "reference",
+										"id": 14,
+										"name": "HkNode.add"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "HealthKit.ts",
+									"line": 120,
+									"character": 7
+								}
+							],
+							"overwrites": {
+								"type": "reference",
+								"id": 14,
+								"name": "HkNode.add"
+							}
+						},
+						{
+							"id": 47,
+							"name": "addOptional",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 48,
+									"name": "addOptional",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"isExported": true
+									},
+									"parameters": [
+										{
+											"id": 49,
+											"name": "fields",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"type": {
+												"type": "reference",
+												"typeArguments": [
+													{
+														"type": "union",
+														"types": [
+															{
+																"type": "intrinsic",
+																"name": "string"
+															},
+															{
+																"type": "reflection",
+																"declaration": {
+																	"id": 50,
+																	"name": "__type",
+																	"kind": 65536,
+																	"kindString": "Type literal",
+																	"flags": {
+																		"isExported": true
+																	},
+																	"indexSignature": [
+																		{
+																			"id": 51,
+																			"name": "__index",
+																			"kind": 8192,
+																			"kindString": "Index signature",
+																			"flags": {
+																				"isExported": true
+																			},
+																			"parameters": [
+																				{
+																					"id": 52,
+																					"name": "key",
+																					"kind": 32768,
+																					"kindString": "Parameter",
+																					"flags": {
+																						"isExported": true
+																					},
+																					"type": {
+																						"type": "intrinsic",
+																						"name": "string"
+																					}
+																				}
+																			],
+																			"type": {
+																				"type": "reference",
+																				"id": 2,
+																				"name": "Transformer"
+																			}
+																		}
+																	],
+																	"sources": [
+																		{
+																			"fileName": "HealthKit.ts",
+																			"line": 109,
+																			"character": 36
+																		}
+																	]
+																}
+															}
+														]
+													}
+												],
+												"name": "Array"
+											}
+										},
+										{
+											"id": 53,
+											"name": "source",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"type": {
+												"type": "intrinsic",
+												"name": "any"
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "void"
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 25,
+										"name": "HkNode.addOptional"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "HealthKit.ts",
+									"line": 109,
+									"character": 15
+								}
+							],
+							"inheritedFrom": {
+								"type": "reference",
+								"id": 25,
+								"name": "HkNode.addOptional"
+							}
+						},
+						{
+							"id": 42,
+							"name": "addRequired",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 43,
+									"name": "addRequired",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {},
+									"parameters": [
+										{
+											"id": 44,
+											"name": "fields",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"comment": {
+												"text": "e.g. `['field1', {field2:transformer, field3:[sourceName, transformer]}, ...]`"
+											},
+											"type": {
+												"type": "reference",
+												"typeArguments": [
+													{
+														"type": "union",
+														"types": [
+															{
+																"type": "intrinsic",
+																"name": "string"
+															},
+															{
+																"type": "reference",
+																"id": 276,
+																"name": "TransformerMap"
+															}
+														]
+													}
+												],
+												"name": "Array"
+											}
+										},
+										{
+											"id": 45,
+											"name": "source",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"comment": {
+												"text": "e.g. `{value: 5, name:'Joe'}`\n"
+											},
+											"type": {
+												"type": "reference",
+												"id": 272,
+												"name": "StringMap"
+											}
+										},
+										{
+											"id": 46,
+											"name": "required",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"type": {
+												"type": "intrinsic",
+												"name": "boolean"
+											},
+											"defaultValue": "true"
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "void"
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 20,
+										"name": "HkNode.addRequired"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "HealthKit.ts",
+									"line": 87,
+									"character": 15
+								}
+							],
+							"inheritedFrom": {
+								"type": "reference",
+								"id": 20,
+								"name": "HkNode.addRequired"
+							}
+						},
+						{
+							"id": 39,
+							"name": "close",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 40,
+									"name": "close",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"isExported": true
+									},
+									"parameters": [
+										{
+											"id": 41,
+											"name": "p",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"type": {
+												"type": "reference",
+												"id": 11,
+												"name": "HkNode"
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "void"
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 17,
+										"name": "HkNode.close"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "HealthKit.ts",
+									"line": 80,
+									"character": 9
+								}
+							],
+							"inheritedFrom": {
+								"type": "reference",
+								"id": 17,
+								"name": "HkNode.close"
+							}
+						}
+					],
+					"groups": [
+						{
+							"title": "Constructors",
+							"kind": 512,
+							"children": [
+								34
+							]
+						},
+						{
+							"title": "Properties",
+							"kind": 1024,
+							"children": [
+								33
+							]
+						},
+						{
+							"title": "Methods",
+							"kind": 2048,
+							"children": [
+								36,
+								47,
+								42,
+								39
+							]
+						}
+					],
+					"sources": [
+						{
+							"fileName": "HealthKit.ts",
+							"line": 114,
+							"character": 19
+						}
+					],
+					"extendedTypes": [
+						{
+							"type": "reference",
+							"id": 11,
+							"name": "HkNode"
+						}
+					]
+				},
+				{
+					"id": 204,
+					"name": "HkWorkout",
+					"kind": 128,
+					"kindString": "Class",
+					"flags": {
+						"isExported": true
+					},
+					"comment": {
+						"shortText": "<!ELEMENT Workout ((MetadataEntry|WorkoutEvent|WorkoutRoute)*)>\n<!ATTLIST Workout\nworkoutActivityType   CDATA #REQUIRED\nduration              CDATA #IMPLIED\ndurationUnit          CDATA #IMPLIED\ntotalDistance         CDATA #IMPLIED\ntotalDistanceUnit     CDATA #IMPLIED\ntotalEnergyBurned     CDATA #IMPLIED\ntotalEnergyBurnedUnit CDATA #IMPLIED\nsourceName            CDATA #REQUIRED\nsourceVersion         CDATA #IMPLIED\ndevice                CDATA #IMPLIED\ncreationDate          CDATA #IMPLIED\nstartDate             CDATA #REQUIRED\nendDate               CDATA #REQUIRED\n>"
+					},
+					"children": [
+						{
+							"id": 212,
+							"name": "constructor",
+							"kind": 512,
+							"kindString": "Constructor",
+							"flags": {
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 214,
+									"name": "new HkWorkout",
+									"kind": 16384,
+									"kindString": "Constructor signature",
+									"flags": {
+										"isExported": true
+									},
+									"parameters": [
+										{
+											"id": 215,
+											"name": "node",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"type": {
+												"type": "reference",
+												"name": "Tag"
+											}
+										},
+										{
+											"id": 216,
+											"name": "healthData",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"type": {
+												"type": "reference",
+												"id": 54,
+												"name": "HkHealthData"
+											}
+										}
+									],
+									"type": {
+										"type": "reference",
+										"id": 204,
+										"name": "HkWorkout"
+									},
+									"overwrites": {
+										"type": "reference",
+										"id": 12,
+										"name": "HkNode.__constructor"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "HealthKit.ts",
+									"line": 380,
+									"character": 18
+								}
+							],
+							"overwrites": {
+								"type": "reference",
+								"id": 12,
+								"name": "HkNode.__constructor"
+							}
+						},
+						{
+							"id": 211,
+							"name": "abbr",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isExported": true
+							},
+							"sources": [
+								{
+									"fileName": "HealthKit.ts",
+									"line": 380,
+									"character": 8
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "any"
+							}
+						},
+						{
+							"id": 209,
+							"name": "events",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isExported": true
+							},
+							"sources": [
+								{
+									"fileName": "HealthKit.ts",
+									"line": 378,
+									"character": 10
+								}
+							],
+							"type": {
+								"type": "array",
+								"elementType": {
+									"type": "intrinsic",
+									"name": "any"
+								}
+							},
+							"defaultValue": "[]"
+						},
+						{
+							"id": 208,
+							"name": "header",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isExported": true
+							},
+							"sources": [
+								{
+									"fileName": "HealthKit.ts",
+									"line": 377,
+									"character": 10
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "any"
+							}
+						},
+						{
+							"id": 213,
+							"name": "healthData",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isProtected": true,
+								"isExported": true,
+								"isConstructorProperty": true
+							},
+							"sources": [
+								{
+									"fileName": "HealthKit.ts",
+									"line": 381,
+									"character": 50
+								}
+							],
+							"type": {
+								"type": "reference",
+								"id": 54,
+								"name": "HkHealthData"
+							}
+						},
+						{
+							"id": 210,
+							"name": "routes",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isExported": true
+							},
+							"sources": [
+								{
+									"fileName": "HealthKit.ts",
+									"line": 379,
+									"character": 10
+								}
+							],
+							"type": {
+								"type": "array",
+								"elementType": {
+									"type": "intrinsic",
+									"name": "any"
+								}
+							},
+							"defaultValue": "[]"
+						},
+						{
+							"id": 207,
+							"name": "type",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isExported": true
+							},
+							"sources": [
+								{
+									"fileName": "HealthKit.ts",
+									"line": 376,
+									"character": 8
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "string"
+							},
+							"defaultValue": "\"Workout\""
+						},
+						{
+							"id": 205,
+							"name": "types",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isStatic": true,
+								"isExported": true
+							},
+							"sources": [
+								{
+									"fileName": "HealthKit.ts",
+									"line": 375,
+									"character": 16
+								}
+							],
+							"type": {
+								"type": "reflection",
+								"declaration": {
+									"id": 206,
+									"name": "__type",
+									"kind": 65536,
+									"kindString": "Type literal",
+									"flags": {
+										"isExported": true
+									}
+								}
+							}
+						},
+						{
+							"id": 227,
+							"name": "add",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 228,
+									"name": "add",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"isExported": true
+									},
+									"parameters": [
+										{
+											"id": 229,
+											"name": "node",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"type": {
+												"type": "reference",
+												"name": "Tag"
+											}
+										}
+									],
+									"type": {
+										"type": "reference",
+										"id": 11,
+										"name": "HkNode"
+									},
+									"overwrites": {
+										"type": "reference",
+										"id": 14,
+										"name": "HkNode.add"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "HealthKit.ts",
+									"line": 418,
+									"character": 7
+								}
+							],
+							"overwrites": {
+								"type": "reference",
+								"id": 14,
+								"name": "HkNode.add"
+							}
+						},
+						{
+							"id": 238,
+							"name": "addOptional",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 239,
+									"name": "addOptional",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"isExported": true
+									},
+									"parameters": [
+										{
+											"id": 240,
+											"name": "fields",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"type": {
+												"type": "reference",
+												"typeArguments": [
+													{
+														"type": "union",
+														"types": [
+															{
+																"type": "intrinsic",
+																"name": "string"
+															},
+															{
+																"type": "reflection",
+																"declaration": {
+																	"id": 241,
+																	"name": "__type",
+																	"kind": 65536,
+																	"kindString": "Type literal",
+																	"flags": {
+																		"isExported": true
+																	},
+																	"indexSignature": [
+																		{
+																			"id": 242,
+																			"name": "__index",
+																			"kind": 8192,
+																			"kindString": "Index signature",
+																			"flags": {
+																				"isExported": true
+																			},
+																			"parameters": [
+																				{
+																					"id": 243,
+																					"name": "key",
+																					"kind": 32768,
+																					"kindString": "Parameter",
+																					"flags": {
+																						"isExported": true
+																					},
+																					"type": {
+																						"type": "intrinsic",
+																						"name": "string"
+																					}
+																				}
+																			],
+																			"type": {
+																				"type": "reference",
+																				"id": 2,
+																				"name": "Transformer"
+																			}
+																		}
+																	],
+																	"sources": [
+																		{
+																			"fileName": "HealthKit.ts",
+																			"line": 109,
+																			"character": 36
+																		}
+																	]
+																}
+															}
+														]
+													}
+												],
+												"name": "Array"
+											}
+										},
+										{
+											"id": 244,
+											"name": "source",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"type": {
+												"type": "intrinsic",
+												"name": "any"
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "void"
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 25,
+										"name": "HkNode.addOptional"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "HealthKit.ts",
+									"line": 109,
+									"character": 15
+								}
+							],
+							"inheritedFrom": {
+								"type": "reference",
+								"id": 25,
+								"name": "HkNode.addOptional"
+							}
+						},
+						{
+							"id": 233,
+							"name": "addRequired",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 234,
+									"name": "addRequired",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {},
+									"parameters": [
+										{
+											"id": 235,
+											"name": "fields",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"comment": {
+												"text": "e.g. `['field1', {field2:transformer, field3:[sourceName, transformer]}, ...]`"
+											},
+											"type": {
+												"type": "reference",
+												"typeArguments": [
+													{
+														"type": "union",
+														"types": [
+															{
+																"type": "intrinsic",
+																"name": "string"
+															},
+															{
+																"type": "reference",
+																"id": 276,
+																"name": "TransformerMap"
+															}
+														]
+													}
+												],
+												"name": "Array"
+											}
+										},
+										{
+											"id": 236,
+											"name": "source",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"comment": {
+												"text": "e.g. `{value: 5, name:'Joe'}`\n"
+											},
+											"type": {
+												"type": "reference",
+												"id": 272,
+												"name": "StringMap"
+											}
+										},
+										{
+											"id": 237,
+											"name": "required",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"type": {
+												"type": "intrinsic",
+												"name": "boolean"
+											},
+											"defaultValue": "true"
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "void"
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 20,
+										"name": "HkNode.addRequired"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "HealthKit.ts",
+									"line": 87,
+									"character": 15
+								}
+							],
+							"inheritedFrom": {
+								"type": "reference",
+								"id": 20,
+								"name": "HkNode.addRequired"
+							}
+						},
+						{
+							"id": 222,
+							"name": "addWorkoutEvent",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 223,
+									"name": "addWorkoutEvent",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"isExported": true
+									},
+									"parameters": [
+										{
+											"id": 224,
+											"name": "value",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"type": {
+												"type": "intrinsic",
+												"name": "any"
+											}
+										},
+										{
+											"id": 225,
+											"name": "valueKey",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"type": {
+												"type": "intrinsic",
+												"name": "string"
+											}
+										},
+										{
+											"id": 226,
+											"name": "lookup",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"type": {
+												"type": "intrinsic",
+												"name": "boolean"
+											},
+											"defaultValue": "false"
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "void"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "HealthKit.ts",
+									"line": 413,
+									"character": 19
+								}
+							]
+						},
+						{
+							"id": 217,
+							"name": "addWorkoutHeaderField",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 218,
+									"name": "addWorkoutHeaderField",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"isExported": true
+									},
+									"parameters": [
+										{
+											"id": 219,
+											"name": "value",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"type": {
+												"type": "intrinsic",
+												"name": "any"
+											}
+										},
+										{
+											"id": 220,
+											"name": "valueKey",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"type": {
+												"type": "intrinsic",
+												"name": "string"
+											}
+										},
+										{
+											"id": 221,
+											"name": "lookup",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"type": {
+												"type": "intrinsic",
+												"name": "boolean"
+											},
+											"defaultValue": "false"
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "void"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "HealthKit.ts",
+									"line": 408,
+									"character": 25
+								}
+							]
+						},
+						{
+							"id": 230,
+							"name": "close",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 231,
+									"name": "close",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"isExported": true
+									},
+									"parameters": [
+										{
+											"id": 232,
+											"name": "p",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"type": {
+												"type": "reference",
+												"id": 11,
+												"name": "HkNode"
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "void"
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 17,
+										"name": "HkNode.close"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "HealthKit.ts",
+									"line": 80,
+									"character": 9
+								}
+							],
+							"inheritedFrom": {
+								"type": "reference",
+								"id": 17,
+								"name": "HkNode.close"
+							}
+						}
+					],
+					"groups": [
+						{
+							"title": "Constructors",
+							"kind": 512,
+							"children": [
+								212
+							]
+						},
+						{
+							"title": "Properties",
+							"kind": 1024,
+							"children": [
+								211,
+								209,
+								208,
+								213,
+								210,
+								207,
+								205
+							]
+						},
+						{
+							"title": "Methods",
+							"kind": 2048,
+							"children": [
+								227,
+								238,
+								233,
+								222,
+								217,
+								230
+							]
+						}
+					],
+					"sources": [
+						{
+							"fileName": "HealthKit.ts",
+							"line": 374,
+							"character": 22
+						}
+					],
+					"extendedTypes": [
+						{
+							"type": "reference",
+							"id": 11,
+							"name": "HkNode"
+						}
+					]
+				},
+				{
+					"id": 245,
+					"name": "HkWorkoutRoute",
+					"kind": 128,
+					"kindString": "Class",
+					"flags": {
+						"isExported": true
+					},
+					"comment": {
+						"shortText": "<!ELEMENT WorkoutRoute ((MetadataEntry|FileReference)*)>\n<!ATTLIST WorkoutRoute\nsourceName    CDATA #REQUIRED\nsourceVersion CDATA #IMPLIED\ndevice        CDATA #IMPLIED\ncreationDate  CDATA #IMPLIED\nstartDate     CDATA #REQUIRED\nendDate       CDATA #REQUIRED\n>"
+					},
+					"children": [
+						{
+							"id": 248,
+							"name": "constructor",
+							"kind": 512,
+							"kindString": "Constructor",
+							"flags": {
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 250,
+									"name": "new HkWorkoutRoute",
+									"kind": 16384,
+									"kindString": "Constructor signature",
+									"flags": {
+										"isExported": true
+									},
+									"parameters": [
+										{
+											"id": 251,
+											"name": "node",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"type": {
+												"type": "reference",
+												"name": "Tag"
+											}
+										},
+										{
+											"id": 252,
+											"name": "workout",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"type": {
+												"type": "reference",
+												"id": 204,
+												"name": "HkWorkout"
+											}
+										}
+									],
+									"type": {
+										"type": "reference",
+										"id": 245,
+										"name": "HkWorkoutRoute"
+									},
+									"overwrites": {
+										"type": "reference",
+										"id": 12,
+										"name": "HkNode.__constructor"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "HealthKit.ts",
+									"line": 466,
+									"character": 15
+								}
+							],
+							"overwrites": {
+								"type": "reference",
+								"id": 12,
+								"name": "HkNode.__constructor"
+							}
+						},
+						{
+							"id": 246,
+							"name": "route",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isExported": true
+							},
+							"sources": [
+								{
+									"fileName": "HealthKit.ts",
+									"line": 466,
+									"character": 9
+								}
+							],
+							"type": {
+								"type": "reflection",
+								"declaration": {
+									"id": 247,
+									"name": "__type",
+									"kind": 65536,
+									"kindString": "Type literal",
+									"flags": {
+										"isExported": true
+									}
+								}
+							}
+						},
+						{
+							"id": 249,
+							"name": "workout",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isProtected": true,
+								"isExported": true,
+								"isConstructorProperty": true
+							},
+							"sources": [
+								{
+									"fileName": "HealthKit.ts",
+									"line": 467,
+									"character": 47
+								}
+							],
+							"type": {
+								"type": "reference",
+								"id": 204,
+								"name": "HkWorkout"
+							}
+						},
+						{
+							"id": 253,
+							"name": "add",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 254,
+									"name": "add",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"isExported": true
+									},
+									"parameters": [
+										{
+											"id": 255,
+											"name": "node",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"type": {
+												"type": "reference",
+												"name": "Tag"
+											}
+										}
+									],
+									"type": {
+										"type": "reference",
+										"id": 11,
+										"name": "HkNode"
+									},
+									"overwrites": {
+										"type": "reference",
+										"id": 14,
+										"name": "HkNode.add"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "HealthKit.ts",
+									"line": 480,
+									"character": 7
+								}
+							],
+							"overwrites": {
+								"type": "reference",
+								"id": 14,
+								"name": "HkNode.add"
+							}
+						},
+						{
+							"id": 264,
+							"name": "addOptional",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 265,
+									"name": "addOptional",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"isExported": true
+									},
+									"parameters": [
+										{
+											"id": 266,
+											"name": "fields",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"type": {
+												"type": "reference",
+												"typeArguments": [
+													{
+														"type": "union",
+														"types": [
+															{
+																"type": "intrinsic",
+																"name": "string"
+															},
+															{
+																"type": "reflection",
+																"declaration": {
+																	"id": 267,
+																	"name": "__type",
+																	"kind": 65536,
+																	"kindString": "Type literal",
+																	"flags": {
+																		"isExported": true
+																	},
+																	"indexSignature": [
+																		{
+																			"id": 268,
+																			"name": "__index",
+																			"kind": 8192,
+																			"kindString": "Index signature",
+																			"flags": {
+																				"isExported": true
+																			},
+																			"parameters": [
+																				{
+																					"id": 269,
+																					"name": "key",
+																					"kind": 32768,
+																					"kindString": "Parameter",
+																					"flags": {
+																						"isExported": true
+																					},
+																					"type": {
+																						"type": "intrinsic",
+																						"name": "string"
+																					}
+																				}
+																			],
+																			"type": {
+																				"type": "reference",
+																				"id": 2,
+																				"name": "Transformer"
+																			}
+																		}
+																	],
+																	"sources": [
+																		{
+																			"fileName": "HealthKit.ts",
+																			"line": 109,
+																			"character": 36
+																		}
+																	]
+																}
+															}
+														]
+													}
+												],
+												"name": "Array"
+											}
+										},
+										{
+											"id": 270,
+											"name": "source",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"type": {
+												"type": "intrinsic",
+												"name": "any"
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "void"
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 25,
+										"name": "HkNode.addOptional"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "HealthKit.ts",
+									"line": 109,
+									"character": 15
+								}
+							],
+							"inheritedFrom": {
+								"type": "reference",
+								"id": 25,
+								"name": "HkNode.addOptional"
+							}
+						},
+						{
+							"id": 259,
+							"name": "addRequired",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 260,
+									"name": "addRequired",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {},
+									"parameters": [
+										{
+											"id": 261,
+											"name": "fields",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"comment": {
+												"text": "e.g. `['field1', {field2:transformer, field3:[sourceName, transformer]}, ...]`"
+											},
+											"type": {
+												"type": "reference",
+												"typeArguments": [
+													{
+														"type": "union",
+														"types": [
+															{
+																"type": "intrinsic",
+																"name": "string"
+															},
+															{
+																"type": "reference",
+																"id": 276,
+																"name": "TransformerMap"
+															}
+														]
+													}
+												],
+												"name": "Array"
+											}
+										},
+										{
+											"id": 262,
+											"name": "source",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"comment": {
+												"text": "e.g. `{value: 5, name:'Joe'}`\n"
+											},
+											"type": {
+												"type": "reference",
+												"id": 272,
+												"name": "StringMap"
+											}
+										},
+										{
+											"id": 263,
+											"name": "required",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"type": {
+												"type": "intrinsic",
+												"name": "boolean"
+											},
+											"defaultValue": "true"
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "void"
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 20,
+										"name": "HkNode.addRequired"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "HealthKit.ts",
+									"line": 87,
+									"character": 15
+								}
+							],
+							"inheritedFrom": {
+								"type": "reference",
+								"id": 20,
+								"name": "HkNode.addRequired"
+							}
+						},
+						{
+							"id": 256,
+							"name": "close",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 257,
+									"name": "close",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"isExported": true
+									},
+									"parameters": [
+										{
+											"id": 258,
+											"name": "p",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"type": {
+												"type": "reference",
+												"id": 11,
+												"name": "HkNode"
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "void"
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 17,
+										"name": "HkNode.close"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "HealthKit.ts",
+									"line": 80,
+									"character": 9
+								}
+							],
+							"inheritedFrom": {
+								"type": "reference",
+								"id": 17,
+								"name": "HkNode.close"
+							}
+						}
+					],
+					"groups": [
+						{
+							"title": "Constructors",
+							"kind": 512,
+							"children": [
+								248
+							]
+						},
+						{
+							"title": "Properties",
+							"kind": 1024,
+							"children": [
+								246,
+								249
+							]
+						},
+						{
+							"title": "Methods",
+							"kind": 2048,
+							"children": [
+								253,
+								264,
+								259,
+								256
+							]
+						}
+					],
+					"sources": [
+						{
+							"fileName": "HealthKit.ts",
+							"line": 465,
+							"character": 27
+						}
+					],
+					"extendedTypes": [
+						{
+							"type": "reference",
+							"id": 11,
+							"name": "HkNode"
+						}
+					]
+				},
+				{
+					"id": 2,
+					"name": "Transformer",
+					"kind": 256,
+					"kindString": "Interface",
+					"flags": {},
+					"signatures": [
+						{
+							"id": 3,
+							"name": "__call",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {},
+							"parameters": [
+								{
+									"id": 4,
+									"name": "key",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"type": {
+										"type": "intrinsic",
+										"name": "string"
+									}
+								},
+								{
+									"id": 5,
+									"name": "source",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"type": {
+										"type": "intrinsic",
+										"name": "any"
+									}
+								}
+							],
+							"type": {
+								"type": "union",
+								"types": [
+									{
+										"type": "intrinsic",
+										"name": "number"
+									},
+									{
+										"type": "reference",
+										"name": "Date"
+									}
+								]
+							}
+						}
+					],
+					"sources": [
+						{
+							"fileName": "HealthKit.ts",
+							"line": 53,
+							"character": 21
+						}
+					]
+				},
+				{
+					"id": 6,
+					"name": "TypedRecord",
+					"kind": 256,
+					"kindString": "Interface",
+					"flags": {
+						"isExported": true
+					},
+					"children": [
+						{
+							"id": 9,
+							"name": "abbr",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isExported": true
+							},
+							"sources": [
+								{
+									"fileName": "HealthKit.ts",
+									"line": 72,
+									"character": 8
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "any"
+							}
+						},
+						{
+							"id": 10,
+							"name": "bpm",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isExported": true,
+								"isOptional": true
+							},
+							"sources": [
+								{
+									"fileName": "HealthKit.ts",
+									"line": 73,
+									"character": 7
+								}
+							],
+							"type": {
+								"type": "reference",
+								"id": 6,
+								"name": "TypedRecord"
+							}
+						},
+						{
+							"id": 7,
+							"name": "header",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isExported": true
+							},
+							"sources": [
+								{
+									"fileName": "HealthKit.ts",
+									"line": 70,
+									"character": 10
+								}
+							],
+							"type": {
+								"type": "array",
+								"elementType": {
+									"type": "intrinsic",
+									"name": "string"
+								}
+							}
+						},
+						{
+							"id": 8,
+							"name": "values",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isExported": true
+							},
+							"sources": [
+								{
+									"fileName": "HealthKit.ts",
+									"line": 71,
+									"character": 10
+								}
+							],
+							"type": {
+								"type": "array",
+								"elementType": {
+									"type": "array",
+									"elementType": {
+										"type": "intrinsic",
+										"name": "any"
+									}
+								}
+							}
+						}
+					],
+					"groups": [
+						{
+							"title": "Properties",
+							"kind": 1024,
+							"children": [
+								9,
+								10,
+								7,
+								8
+							]
+						}
+					],
+					"sources": [
+						{
+							"fileName": "HealthKit.ts",
+							"line": 69,
+							"character": 28
+						}
+					]
+				},
+				{
+					"id": 272,
+					"name": "StringMap",
+					"kind": 4194304,
+					"kindString": "Type alias",
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "HealthKit.ts",
+							"line": 50,
+							"character": 14
+						}
+					],
+					"type": {
+						"type": "reflection",
+						"declaration": {
+							"id": 273,
+							"name": "__type",
+							"kind": 65536,
+							"kindString": "Type literal",
+							"flags": {},
+							"indexSignature": [
+								{
+									"id": 274,
+									"name": "__index",
+									"kind": 8192,
+									"kindString": "Index signature",
+									"flags": {},
+									"parameters": [
+										{
+											"id": 275,
+											"name": "name",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {},
+											"type": {
+												"type": "intrinsic",
+												"name": "string"
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "string"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "HealthKit.ts",
+									"line": 50,
+									"character": 16
+								}
+							]
+						}
+					}
+				},
+				{
+					"id": 276,
+					"name": "TransformerMap",
+					"kind": 4194304,
+					"kindString": "Type alias",
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "HealthKit.ts",
+							"line": 51,
+							"character": 19
+						}
+					],
+					"type": {
+						"type": "reflection",
+						"declaration": {
+							"id": 277,
+							"name": "__type",
+							"kind": 65536,
+							"kindString": "Type literal",
+							"flags": {},
+							"indexSignature": [
+								{
+									"id": 278,
+									"name": "__index",
+									"kind": 8192,
+									"kindString": "Index signature",
+									"flags": {},
+									"parameters": [
+										{
+											"id": 279,
+											"name": "key",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {},
+											"type": {
+												"type": "intrinsic",
+												"name": "string"
+											}
+										}
+									],
+									"type": {
+										"type": "union",
+										"types": [
+											{
+												"type": "reference",
+												"id": 2,
+												"name": "Transformer"
+											},
+											{
+												"type": "tuple"
+											}
+										]
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "HealthKit.ts",
+									"line": 51,
+									"character": 21
+								}
+							]
+						}
+					}
+				},
+				{
+					"id": 271,
+					"name": "log",
+					"kind": 32,
+					"kindString": "Variable",
+					"flags": {
+						"isConst": true
+					},
+					"sources": [
+						{
+							"fileName": "HealthKit.ts",
+							"line": 47,
+							"character": 10
+						}
+					],
+					"type": {
+						"type": "reference",
+						"name": "Log"
+					},
+					"defaultValue": "new Log('HealthKit')"
+				},
+				{
+					"id": 292,
+					"name": "getLookup",
+					"kind": 64,
+					"kindString": "Function",
+					"flags": {},
+					"signatures": [
+						{
+							"id": 293,
+							"name": "getLookup",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {},
+							"parameters": [
+								{
+									"id": 294,
+									"name": "abbr",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"type": {
+										"type": "intrinsic",
+										"name": "any"
+									}
+								},
+								{
+									"id": 295,
+									"name": "value",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"type": {
+										"type": "intrinsic",
+										"name": "string"
+									}
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "any"
+							}
+						}
+					],
+					"sources": [
+						{
+							"fileName": "HealthKit.ts",
+							"line": 510,
+							"character": 18
+						}
+					]
+				},
+				{
+					"id": 280,
+					"name": "toDate",
+					"kind": 64,
+					"kindString": "Function",
+					"flags": {
+						"isConst": true
+					},
+					"signatures": [
+						{
+							"id": 281,
+							"name": "toDate",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {},
+							"parameters": [
+								{
+									"id": 282,
+									"name": "key",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"type": {
+										"type": "intrinsic",
+										"name": "string"
+									}
+								},
+								{
+									"id": 283,
+									"name": "source",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"type": {
+										"type": "intrinsic",
+										"name": "any"
+									}
+								}
+							],
+							"type": {
+								"type": "reference",
+								"name": "Date"
+							}
+						}
+					],
+					"sources": [
+						{
+							"fileName": "HealthKit.ts",
+							"line": 56,
+							"character": 12
+						}
+					]
+				},
+				{
+					"id": 288,
+					"name": "toHKCharType",
+					"kind": 64,
+					"kindString": "Function",
+					"flags": {
+						"isConst": true
+					},
+					"signatures": [
+						{
+							"id": 289,
+							"name": "toHKCharType",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {},
+							"parameters": [
+								{
+									"id": 290,
+									"name": "key",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"type": {
+										"type": "intrinsic",
+										"name": "string"
+									}
+								},
+								{
+									"id": 291,
+									"name": "source",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"type": {
+										"type": "intrinsic",
+										"name": "any"
+									}
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "any"
+							}
+						}
+					],
+					"sources": [
+						{
+							"fileName": "HealthKit.ts",
+							"line": 64,
+							"character": 18
+						}
+					]
+				},
+				{
+					"id": 284,
+					"name": "toNumber",
+					"kind": 64,
+					"kindString": "Function",
+					"flags": {
+						"isConst": true
+					},
+					"signatures": [
+						{
+							"id": 285,
+							"name": "toNumber",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {},
+							"parameters": [
+								{
+									"id": 286,
+									"name": "key",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"type": {
+										"type": "intrinsic",
+										"name": "string"
+									}
+								},
+								{
+									"id": 287,
+									"name": "source",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"type": {
+										"type": "intrinsic",
+										"name": "any"
+									}
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "number"
+							}
+						}
+					],
+					"sources": [
+						{
+							"fileName": "HealthKit.ts",
+							"line": 60,
+							"character": 14
+						}
+					]
+				}
+			],
+			"groups": [
+				{
+					"title": "Classes",
+					"kind": 128,
+					"children": [
+						103,
+						54,
+						180,
+						126,
+						11,
+						152,
+						32,
+						204,
+						245
+					]
+				},
+				{
+					"title": "Interfaces",
+					"kind": 256,
+					"children": [
+						2,
+						6
+					]
+				},
+				{
+					"title": "Type aliases",
+					"kind": 4194304,
+					"children": [
+						272,
+						276
+					]
+				},
+				{
+					"title": "Variables",
+					"kind": 32,
+					"children": [
+						271
+					]
+				},
+				{
+					"title": "Functions",
+					"kind": 64,
+					"children": [
+						292,
+						280,
+						288,
+						284
+					]
+				}
+			],
+			"sources": [
+				{
+					"fileName": "HealthKit.ts",
+					"line": 1,
+					"character": 0
+				}
+			]
+		},
+		{
+			"id": 296,
+			"name": "\"converter\"",
+			"kind": 1,
+			"kindString": "Module",
+			"flags": {
+				"isExported": true
+			},
+			"originalName": "/Users/sth1pal/Documents/Development/JavaScript/nodejs/ts6/dev/hsNode/hsHealthData/src/converter.ts",
+			"children": [
+				{
+					"id": 299,
+					"name": "current",
+					"kind": 32,
+					"kindString": "Variable",
+					"flags": {
+						"isLet": true
+					},
+					"sources": [
+						{
+							"fileName": "converter.ts",
+							"line": 10,
+							"character": 11
+						}
+					],
+					"type": {
+						"type": "reference",
+						"id": 11,
+						"name": "HkNode"
+					}
+				},
+				{
+					"id": 298,
+					"name": "file",
+					"kind": 32,
+					"kindString": "Variable",
+					"flags": {
+						"isConst": true
+					},
+					"sources": [
+						{
+							"fileName": "converter.ts",
+							"line": 8,
+							"character": 10
+						}
+					],
+					"type": {
+						"type": "stringLiteral",
+						"value": "./data/export.xml"
+					},
+					"defaultValue": "\"./data/export.xml\""
+				},
+				{
+					"id": 297,
+					"name": "log",
+					"kind": 32,
+					"kindString": "Variable",
+					"flags": {
+						"isConst": true
+					},
+					"sources": [
+						{
+							"fileName": "converter.ts",
+							"line": 1,
+							"character": 52
+						}
+					],
+					"type": {
+						"type": "reference",
+						"name": "Log"
+					},
+					"defaultValue": "new Log('server')"
+				},
+				{
+					"id": 300,
+					"name": "stack",
+					"kind": 32,
+					"kindString": "Variable",
+					"flags": {
+						"isConst": true
+					},
+					"sources": [
+						{
+							"fileName": "converter.ts",
+							"line": 12,
+							"character": 11
+						}
+					],
+					"type": {
+						"type": "array",
+						"elementType": {
+							"type": "reference",
+							"id": 11,
+							"name": "HkNode"
+						}
+					},
+					"defaultValue": "[]"
+				},
+				{
+					"id": 301,
+					"name": "temp",
+					"kind": 32,
+					"kindString": "Variable",
+					"flags": {
+						"isConst": true
+					},
+					"sources": [
+						{
+							"fileName": "converter.ts",
+							"line": 14,
+							"character": 10
+						}
+					],
+					"type": {
+						"type": "array",
+						"elementType": {
+							"type": "intrinsic",
+							"name": "string"
+						}
+					},
+					"defaultValue": "[]"
+				},
+				{
+					"id": 305,
+					"name": "main",
+					"kind": 64,
+					"kindString": "Function",
+					"flags": {},
+					"signatures": [
+						{
+							"id": 306,
+							"name": "main",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {},
+							"type": {
+								"type": "reference",
+								"typeArguments": [
+									{
+										"type": "intrinsic",
+										"name": "void"
+									}
+								],
+								"name": "Promise"
+							}
+						}
+					],
+					"sources": [
+						{
+							"fileName": "converter.ts",
+							"line": 48,
+							"character": 19
+						}
+					]
+				},
+				{
+					"id": 302,
+					"name": "parse",
+					"kind": 64,
+					"kindString": "Function",
+					"flags": {},
+					"signatures": [
+						{
+							"id": 303,
+							"name": "parse",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {},
+							"parameters": [
+								{
+									"id": 304,
+									"name": "file",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"type": {
+										"type": "intrinsic",
+										"name": "string"
+									}
+								}
+							],
+							"type": {
+								"type": "reference",
+								"typeArguments": [
+									{
+										"type": "reference",
+										"id": 11,
+										"name": "HkNode"
+									}
+								],
+								"name": "Promise"
+							}
+						}
+					],
+					"sources": [
+						{
+							"fileName": "converter.ts",
+							"line": 16,
+							"character": 20
+						}
+					]
+				},
+				{
+					"id": 307,
+					"name": "saveTable",
+					"kind": 64,
+					"kindString": "Function",
+					"flags": {},
+					"signatures": [
+						{
+							"id": 308,
+							"name": "saveTable",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {},
+							"parameters": [
+								{
+									"id": 309,
+									"name": "table",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"type": {
+										"type": "reference",
+										"id": 6,
+										"name": "TypedRecord"
+									}
+								},
+								{
+									"id": 310,
+									"name": "name",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"type": {
+										"type": "intrinsic",
+										"name": "string"
+									}
+								}
+							],
+							"type": {
+								"type": "reference",
+								"typeArguments": [
+									{
+										"type": "intrinsic",
+										"name": "void"
+									}
+								],
+								"name": "Promise"
+							}
+						}
+					],
+					"sources": [
+						{
+							"fileName": "converter.ts",
+							"line": 84,
+							"character": 24
+						}
+					]
+				}
+			],
+			"groups": [
+				{
+					"title": "Variables",
+					"kind": 32,
+					"children": [
+						299,
+						298,
+						297,
+						300,
+						301
+					]
+				},
+				{
+					"title": "Functions",
+					"kind": 64,
+					"children": [
+						305,
+						302,
+						307
+					]
+				}
+			],
+			"sources": [
+				{
+					"fileName": "converter.ts",
+					"line": 1,
+					"character": 0
+				}
+			]
+		}
+	],
+	"groups": [
+		{
+			"title": "Modules",
+			"kind": 1,
+			"children": [
+				1,
+				296
+			]
+		}
+	]
+}

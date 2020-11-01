@@ -1,7 +1,7 @@
 _coverage
 _example
 bin
-data
+/data
 node_modules*
 lcov-report
 lcov.info
