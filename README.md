@@ -3,7 +3,7 @@ hsHealthData
 [![npm version](https://badge.fury.io/js/hshealthdata.svg)](https://badge.fury.io/js/hshealthdata)
 [![GitHub](https://img.shields.io/badge/GitHub-hsHealthData-blue.svg)](https://github.com/helpfulscripts/hshealthdata)
 [![docs](https://img.shields.io/badge/hsDocs-hsHealthData-blue.svg)](https://helpfulscripts.github.io/hsHealthData/#!/api/hsHealthData/0)
-[![Build Status](https://travis-ci.org/HelpfulScripts/hsHealthData.svg?branch=master)](https://travis-ci.org/HelpfulScripts/hsHealthData)
+[![Build Status](https://travis-ci.com/HelpfulScripts/hsHealthData.svg?branch=master)](https://travis-ci.com/HelpfulScripts/hsHealthData)
 [![Dependencies Status](https://david-dm.org/helpfulscripts/hshealthdata.svg)](https://david-dm.org/helpfulscripts/hshealthdata)
 [![codecov](https://codecov.io/gh/HelpfulScripts/hsHealthData/branch/master/graph/badge.svg)](https://codecov.io/gh/HelpfulScripts/hsHealthData)
 [![Known Vulnerabilities](https://snyk.io/test/github/HelpfulScripts/hsHealthData/badge.svg?targetFile=package.json)](https://snyk.io/test/github/HelpfulScripts/hsHealthData?targetFile=package.json)
